@@ -1,0 +1,423 @@
+.logo {
+    background-color: black;
+}
+
+
+    
+    
+
+
+
+.titulo {
+    width: 100%;
+    height: 70px;
+    font-size: 1.5em;
+    background-color: black;
+    overflow: hidden;
+    color: white; 
+    
+}
+
+
+
+ .titulo h2 {
+    display: inline-block;
+    transform: translateY(-5px);
+    font-family:'Quicksand';
+    font-weight: lighter;
+    font-size: 1.1em;
+    letter-spacing: 10px;
+    
+    
+
+}
+.titulo2 {
+    width: 80%;
+    height: 100px;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.93);
+    overflow: hidden;
+    margin: auto;
+    background-size: cover;
+    
+    
+
+}
+
+.titulo2 h2 {
+    display: inline-block;
+    transform: translateY(-5px);
+    font-family:'Quicksand';
+    font-weight: lighter;
+    font-size: 1.1em;
+    letter-spacing: 10px;
+}
+
+.titulo3 {
+    width: 80%;
+    height: 100px;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.945);
+    overflow: hidden;
+    margin: auto;
+    
+
+}
+
+.titulo3 h2 {
+    display: inline-block;
+    transform: translateY(-15px);
+    font-family:'Quicksand';
+    font-weight: lighter;
+    font-size: 2em;
+    letter-spacing: 10px;
+
+}
+
+
+
+.topo h1 {
+
+    color: white;
+    transform: translatey(200px);
+    font-size: 3em;
+    font-weight: 900;
+    margin-top: 0px;
+    font-family: sans-serif;
+    text-shadow: 5px 2px rgba(0, 0, 0, 0.726);
+    line-height: 50px;
+
+
+}
+
+
+
+
+.titulo {
+    width: 100%;
+    height: 70px;
+    font-size: 1.5em;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    color: white; 
+    text-align: center;
+    
+}
+
+ .titulo h2 {
+    display: inline-block;
+    transform: translateY(-5px);
+    font-family:'Quicksand';
+    font-weight: lighter;
+    font-size: 1.1em;
+    letter-spacing: 10px;
+    color: white;
+    
+    
+
+}
+
+
+.atuacao {
+    width: 100%;
+    height: 1000px;
+    background-image: url(fundo-atuacao.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    
+}
+
+.atuacao .titulo {
+    opacity: 80%;
+}
+
+.atuacao .conteudo {
+    
+    width: 100%;
+    height: 1000px;
+    background-image: url(predios.jpg);
+    background-size: cover;
+}
+.conteudo a {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+    letter-spacing: 7px;
+    transition: all 1s;
+    font-size: .9em;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.conteudo .col-3 a:hover {
+    color: white;
+    letter-spacing: 9px;
+    
+   
+    
+}
+
+
+
+
+
+
+.col-3 {
+    
+    width: 15%;
+    height: 200px;
+    background-color: black;
+    padding: 10px;
+    
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 150px;
+    color: white;
+    float: left;
+    font-family: 'Quicksand';
+    letter-spacing: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+
+
+.col-3 img {
+    width: 30%;
+    margin-top: 50px;
+}
+.col-3 .predio {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+.col-3 .moeda {
+    width: 25%;
+    
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+.col-3 .pessoas {
+    margin-top: 55px;
+    margin-left: 15px;
+
+}
+
+.col-3 .carrinho {
+    width: 28%;
+    margin: auto;
+    margin-top: 65px;
+    
+    display: block;
+}
+
+.col-3 .terno {
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 55px;
+
+}
+
+.col-3 .tribuna {
+    width: 35%;
+    margin-top: 60px;
+}
+
+.col-3 .consumerista {
+    display: block;
+    margin: auto;
+    width: 11%;
+    margin-top: 40px;
+
+}
+
+.col-3 .civil {
+    display: block;
+    margin: auto;
+    width: 33%;
+    margin-top: 60px;
+}
+
+.col-3 .bancario {
+    display: block;
+    margin: auto;
+    margin-top: 65px;
+    width: 28%;
+}
+
+.col-3 .contrato {
+    display: block;
+    margin: auto;
+    margin-top: 65px;
+    width: 20%;
+}
+
+.atuacao-conteudo {
+    width: 100%;
+    height: 6500px;
+    background-image: url(fundo-atuacao-conteudo2.jpg);
+    background-size: cover;
+    background-position: bottom right;
+
+}
+
+
+.como-atuamos {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.25em;
+    background-color: rgba(0, 0, 0, 0.616);
+    overflow: hidden;
+    
+    
+    
+}
+
+.como-atuamos .titulo h2 {
+    display: inline-block;
+    transform: translateY(-10px);
+}
+
+.como-atuamos article {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.card {
+    width: 60%;
+    height: 400px;
+    background-color: black;
+    float: left;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-left: 230px;
+    transform: translateX(50px);
+    display: block;
+
+
+}
+
+.card img {
+    width: 7%;
+    display: inline-block;
+    float: left;
+    margin-top: 40px;
+    margin-left: 70px;
+
+
+}
+.card h3 {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 200px;
+    font-family:'Quicksand';
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 5px;
+
+}
+
+.card article {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    
+
+}
+
+.card .content {
+    width: 40%;
+    border-bottom: solid 1px;
+    margin: auto;
+    margin-right: 280px;
+    transform: translateY(-10px);
+}
+
+#direito-comercial img{
+    width: 7%;
+    margin-top: 40px;
+
+}
+
+
+
+#direito-tributario {
+    padding-bottom: 50px;
+}
+#direito-tributario img {
+    width: 6%;
+    margin-left: 100px;
+}
+
+#direito-societario {
+    padding-bottom: 50px;
+    line-height: 1.5em;
+}
+ #direito-societario img {
+     width: 7%;
+     margin-top: 35px;
+ }
+
+ #direito-trabalhista {
+     padding-bottom: 70px;
+ }
+
+#direito-trabalhista img {
+    margin-top: 40px;
+}
+
+#direito-penal h3{
+    transform: translateX(-40px);
+    
+    
+}
+
+
+
+#direito-penal img {
+    width: 7%;
+    
+}
+
+
+
+#direito-consumerista img {
+    width: 2.5%;
+}
+
+#direito-consumerista .content {
+    width: 45%;
+}
+
+#direito-civil {
+    padding-bottom: 50px;
+
+}
+
+#direito-civil img {
+    width: 7%;
+    padding-top: 10px;
+}
+
+
+
+#direito-contratual img {
+    width: 7%;
+    padding-top: 17px;
+}
+
+#direito-bancario img {
+    width: 8%;
+    padding-top: 20px;
+
+}
+
+
