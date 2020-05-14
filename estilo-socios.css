@@ -83,13 +83,11 @@
     margin-bottom: 10%;
     text-align: justify;
     line-height: 1.5em;
+    padding-bottom: .1em;
 }
 
 
-#tiago {
-    height: 52em;
 
-}
 
 @media screen and (min-width:900px) {
 

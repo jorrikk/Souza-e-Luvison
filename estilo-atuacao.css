@@ -35,6 +35,7 @@
 
 
 .card {
+    font-size: .9em;
     width: 10em;
     background-color: black;
     display: inline-block;
@@ -42,7 +43,6 @@
     height: 10em;
     font-family: 'Quicksand';
     transition: all 1s;
-    padding: 1em;
     text-align: center;
     
 
@@ -111,7 +111,7 @@
 
 
 .card:hover {
-    padding: 1em;
+    padding: .2em;
 }
 
 .card a:hover .consumerista {
