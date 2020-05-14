@@ -1,91 +1,16 @@
-.logo {
-    background-color: black;
-}
-
-
-    
-    
-
-
-
 .titulo {
-    width: 100%;
-    height: 70px;
-    font-size: 1.5em;
-    background-color: black;
-    overflow: hidden;
-    color: white; 
-    
-}
-
-
-
- .titulo h2 {
-    display: inline-block;
-    transform: translateY(-5px);
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: 10px;
-    
-    
-
-}
-.titulo2 {
-    width: 80%;
-    height: 100px;
-    font-size: 2em;
-    background-color: rgba(0, 0, 0, 0.93);
-    overflow: hidden;
-    margin: auto;
-    background-size: cover;
-    
-    
-
-}
-
-.titulo2 h2 {
-    display: inline-block;
-    transform: translateY(-5px);
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: 10px;
-}
-
-.titulo3 {
-    width: 80%;
-    height: 100px;
-    font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.945);
-    overflow: hidden;
-    margin: auto;
-    
-
-}
-
-.titulo3 h2 {
-    display: inline-block;
-    transform: translateY(-15px);
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 2em;
-    letter-spacing: 10px;
-
-}
-
-
-
-.topo h1 {
-
     color: white;
-    transform: translatey(200px);
-    font-size: 3em;
-    font-weight: 900;
-    margin-top: 0px;
-    font-family: sans-serif;
-    text-shadow: 5px 2px rgba(0, 0, 0, 0.726);
-    line-height: 50px;
+    height: 3em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    overflow: hidden;
+
+}
+
+.titulo h2 {
+    font-weight: lighter;
+    letter-spacing: .3em;
+    transform: translateY(-.5em);
 
 
 }
@@ -93,331 +18,278 @@
 
 
 
-.titulo {
+.conteudo {
     width: 100%;
-    height: 70px;
-    font-size: 1.5em;
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-    color: white; 
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.cardarea {
+    width: 40%;
+    display: inline-block;
+    margin: auto;
+
+}
+
+
+
+.card {
+    width: 10em;
+    background-color: black;
+    display: inline-block;
+    margin-top: 3em;
+    height: 10em;
+    font-family: 'Quicksand';
+    transition: all 1s;
+    padding: 1em;
     text-align: center;
     
+
+
+
 }
 
- .titulo h2 {
-    display: inline-block;
-    transform: translateY(-5px);
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: 10px;
-    color: white;
+.card a {
     
-    
-
-}
-
-
-.atuacao {
-    width: 100%;
-    height: 1000px;
-    background-image: url(fundo-atuacao.jpg);
-    background-size: cover;
-    background-position: right bottom;
-    
-}
-
-.atuacao .titulo {
-    opacity: 80%;
-}
-
-.atuacao .conteudo {
-    
-    width: 100%;
-    height: 1000px;
-    background-image: url(predios.jpg);
-    background-size: cover;
-}
-.conteudo a {
+    display: block;
     text-decoration: none;
-    color: rgb(160, 158, 158);
-    letter-spacing: 7px;
-    transition: all 1s;
+    color: white;
+    
+    letter-spacing: .3em;
     font-size: .9em;
-    margin-top: 10px;
-    display: inline-block;
+    transition: all 2s;
+
 }
 
-.conteudo .col-3 a:hover {
-    color: white;
-    letter-spacing: 9px;
+.card img {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    transition: all 1s;
+
+}
+
+.card .consumerista {
+    width: 8%;
+}
+
+
+
+
+
+
+.penal p {
+    width: 50%;
+    display: block;
+    margin-left: 3em;
     
    
     
 }
 
-
-
-
-
-
-.col-3 {
+.civil p {
+    width: 50%;
+    display: block;
+    margin-left: 3em;
     
-    width: 15%;
-    height: 200px;
-    background-color: black;
-    padding: 10px;
+   
     
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 150px;
-    color: white;
-    float: left;
-    font-family: 'Quicksand';
-    letter-spacing: 5px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.09);
 }
 
-
-
-.col-3 img {
-    width: 30%;
-    margin-top: 50px;
-}
-.col-3 .predio {
-    display: block;
-    margin: auto;
-    margin-top: 60px;
-}
-.col-3 .moeda {
-    width: 25%;
+.card a:hover {
+    letter-spacing: .4em;
     
-    display: block;
-    margin: auto;
-    margin-top: 70px;
-}
-.col-3 .pessoas {
-    margin-top: 55px;
-    margin-left: 15px;
-
 }
 
-.col-3 .carrinho {
-    width: 28%;
-    margin: auto;
-    margin-top: 65px;
-    
-    display: block;
+.card a:hover img {
+    transform: translateY(-.5em);
+    width: +30%;
 }
 
-.col-3 .terno {
-    width: 25%;
-    display: block;
-    margin: auto;
-    margin-top: 55px;
 
+
+.card:hover {
+    padding: 1em;
 }
 
-.col-3 .tribuna {
-    width: 35%;
-    margin-top: 60px;
+.card a:hover .consumerista {
+    width: 13%;
 }
-
-.col-3 .consumerista {
-    display: block;
-    margin: auto;
-    width: 11%;
-    margin-top: 40px;
-
-}
-
-.col-3 .civil {
-    display: block;
-    margin: auto;
-    width: 33%;
-    margin-top: 60px;
-}
-
-.col-3 .bancario {
-    display: block;
-    margin: auto;
-    margin-top: 65px;
-    width: 28%;
-}
-
-.col-3 .contrato {
-    display: block;
-    margin: auto;
-    margin-top: 65px;
-    width: 20%;
-}
-
-.atuacao-conteudo {
-    width: 100%;
-    height: 6500px;
-    background-image: url(fundo-atuacao-conteudo2.jpg);
-    background-size: cover;
-    background-position: bottom right;
-
-}
-
 
 .como-atuamos {
-    width: 100%;
-    height: 700px;
+    color: white;
+    text-align: center;
     margin: auto;
-    text-align: justify;
-    font-size: 1.25em;
-    background-color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    background-image: url(fundo-atuacao-conteudo2.jpg);
+    padding-bottom: 10em;
+    text-shadow: 2px 2px 3px black;
     overflow: hidden;
-    
-    
-    
+
 }
+.como-atuamos .titulo{
+   padding: 1em;
+   overflow: hidden;
+}
+
 
 .como-atuamos .titulo h2 {
-    display: inline-block;
-    transform: translateY(-10px);
+    transform: translateY(-1em);
 }
 
-.como-atuamos article {
-    margin-top: 60px;
-    margin-left: 200px;
-    margin-right: 200px;
 
-}
-
-.card {
-    width: 60%;
-    height: 400px;
-    background-color: black;
-    float: left;
-    margin-top: 150px;
-    border-radius: 10px;
-    margin-left: 230px;
-    transform: translateX(50px);
-    display: block;
-
-
-}
-
-.card img {
-    width: 7%;
-    display: inline-block;
-    float: left;
-    margin-top: 40px;
-    margin-left: 70px;
-
-
-}
-.card h3 {
-    display: inline-block;
-    margin-top: 50px;
-    margin-right: 200px;
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 1.5em;
-    color: white;
-    letter-spacing: 5px;
-
-}
-
-.card article {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: justify;
-    line-height: 1.5em;
-    font-size: 1.3em;
-    
-
-}
-
-.card .content {
-    width: 40%;
-    border-bottom: solid 1px;
+.como-atuamos p {
+    width: 85%;
     margin: auto;
-    margin-right: 280px;
-    transform: translateY(-10px);
+    text-align: center;
+    line-height: 2em;
+    transform: translateY(3em);
+    font-size: .9em;
+    margin-top: 1em;
+
+
 }
 
-#direito-comercial img{
-    width: 7%;
-    margin-top: 40px;
-
+.atuacao {
+    background-image: url(fundo-atuacao-conteudo2.jpg);
+    padding-bottom: 4em;
 }
 
 
-
-#direito-tributario {
-    padding-bottom: 50px;
+.card2 {
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 2em ;
+    background-color: black;
+    padding: 0 2em 2em 3em;
+    border-radius: 5px;
 }
+
+.card2 h3 {
+    font-weight: lighter;
+    margin-left: 4em;
+    overflow: hidden;
+}
+
+.card2 img {
+    width: 2em;
+    display: inline-block;
+    transform: translateY(3em);
+    margin-left: 1em;
+}
+
+.content {
+    width: 60%;
+    border-bottom: solid 1px white ;
+    text-align: center;
+    margin: auto;
+    transform: translateY(-1em) translateX(-.5em);
+}
+
 #direito-tributario img {
-    width: 6%;
-    margin-left: 100px;
+    width: 1.6em;
 }
 
-#direito-societario {
-    padding-bottom: 50px;
-    line-height: 1.5em;
+#direito-societario img {
+    width: 1.5em;
 }
- #direito-societario img {
-     width: 7%;
-     margin-top: 35px;
- }
-
- #direito-trabalhista {
-     padding-bottom: 70px;
- }
-
-#direito-trabalhista img {
-    margin-top: 40px;
-}
-
-#direito-penal h3{
-    transform: translateX(-40px);
-    
-    
-}
-
-
-
-#direito-penal img {
-    width: 7%;
-    
-}
-
-
 
 #direito-consumerista img {
-    width: 2.5%;
+    width: .7em;
+    transform: translateX(.5em) translateY(3.3em);
 }
-
-#direito-consumerista .content {
-    width: 45%;
-}
-
-#direito-civil {
-    padding-bottom: 50px;
-
-}
-
-#direito-civil img {
-    width: 7%;
-    padding-top: 10px;
-}
-
-
 
 #direito-contratual img {
-    width: 7%;
-    padding-top: 17px;
-}
-
-#direito-bancario img {
-    width: 8%;
-    padding-top: 20px;
+    width: 1.5em;
+    transform: translateY(3.3em);
 
 }
+
+@media screen and (min-width:850px) {
+
+    .card {
+        font-size: .8em;
+    }
+    
+    
+    .conteudo {
+        background-image: url(predios.jpg);
+    }
+    
+    .cardarea {
+        width: 18%;
+
+    }
+
+    .como-atuamos p {
+        width: 60%;
+        text-align: justify;
+    }
+
+
+   .atuacao-conteudo {
+    width: 100%;   
+    margin: auto;
+   }
+
+   
+   .areas {
+       width: 100%;
+       text-align: center;
+   }
+   
+   .cardarea2 {
+       width: 49%;
+       display: inline-block;
+       
+   }
+
+   
+
+
+    .card2 {
+        
+        width: 90%;
+        height: 25em;
+        display: inline-block;
+        overflow: hidden;
+        text-align: left;
+        padding: 0;
+
+    }
+
+    .card2 p {
+        margin: auto;
+        margin-top: 2em;
+        width: 70%;
+    }
+
+    .card2 h3 {
+        transform: translateX(2em);
+    }
+
+    .card2 img {
+        margin-left: 2em;
+    }
+    
+    
+
+   
+    
+}
+
+@media screen and (min-width:1280px) {
+
+    .card {
+        font-size: 1em;
+    }
+
+}
+
+
+
 
 
