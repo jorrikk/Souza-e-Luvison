@@ -47,6 +47,21 @@
     }
 
 
+    var caroulImgs = new Carousel ({
+        container: '.especialidades',
+        itens: '.card',
+        btnPrev: '.prev',
+        btnNext: '.next'
+
+    })
+
+
+
+
+
+    
+
+
     
 
 })()

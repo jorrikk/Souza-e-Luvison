@@ -64,6 +64,7 @@ body {
     transition: all 1s;
     
     
+    
 
 }
 
@@ -90,6 +91,7 @@ body {
     display: inline-block;
     float: right;
     position: relative;
+    transform: translateX(-1.5em);
 
 
 }
@@ -121,9 +123,12 @@ body {
     float: right;
     color: white;
     transition: all .5s;
+    
             
     
     }
+
+    
     .js .menu-showed a {
         text-decoration: none;
         color: white;
@@ -383,6 +388,7 @@ footer p {
         .js .menu-showed {
             height: 40em;
             width: 35em;
+            
         }
         
         
@@ -431,7 +437,8 @@ footer p {
         .js .hmbgr {
             transform: translateY(-.5em);
         }
-    
+        
+        
     }
 
 
