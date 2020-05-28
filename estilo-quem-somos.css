@@ -1,188 +1,117 @@
-
-.logo {
-    background-color: black;
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black
 }
 
 
 
 
-.titulo {
-    width: 100%;
-    margin: auto;
-    
-}
-
-
-
- .titulo h2 {
-    display: inline-block;
-    transform: translateY(-5px);
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: .5em;
-    
-    
-
-}
-.titulo2 {
-    width: 100%;
-    height: 4em;
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.705);
-
-    
-    
-
-}
-
-.titulo2 h2 {
-    display: inline-block;
-    font-family:'Quicksand';
-    font-weight: lighter;
-    font-size: 1.1em;
-    letter-spacing: 10px;
-
-}
-
-.titulo3 {
-    width: 100%;
-    height: 4em;
-    font-size: 1em;
-    background-color: rgba(0, 0, 0, 0.945);
-    overflow: hidden;
-    margin: auto;
-    color: white;
-    text-align: center;
-    
-
-}
-
-.titulo3 h2 {
-    display: inline-block;
-    font-weight: lighter;
-    letter-spacing: 10px;
-
-}
-.quemsomosnos {
-    
-    width: 100%;
-    height: 40em;
-    background-image: url(fundo-quemsomos.jpg);
-    background-size: cover;
-    
-}
-
-.quemsomosnos-conteudo {
-    width: 100%;
-    height: 40em;
-    background-color: rgba(0, 0, 0, 0.767);
-    margin: auto;
-    overflow: hidden;
-
-   
-}
 
 
 
 
-.quemsomosnos-conteudo article {
-    margin-top: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    font-size: 1em;
-    color: white;
-}
-
-.missao-visao-valores {
-    width: 100%;
-    height: 75em;
-    background-image: url(fundo-missao-visao-valores.jpg);
-    background-size: cover;
-    background-position-x: center;
-
-}
-
-.missao, .visao, .valores {
-    color: white;
+.letreiro {
     width: 100%;
     height: 20em;
-    background-color: rgba(0, 0, 0, 0.726);
+    background-image: url(fundo-sobrenos.jpg);
+    background-position-y: -10em;
+    background-size: cover;
+    
+}
+
+.letreiro h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    transform: translateX(3.5em) translateY(2.1em);
+    color: white;
+    
+}
+
+.letreiro .titulo {
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 100%;
+    height: 20em;
+    
+}
+
+
+
+.risco {
+    border-bottom: 2px solid white;
+    transform: translateY(4.8em);
+    width: 100%;
     margin: auto;
-    overflow: hidden;
-    font-size: 1em;
-    
 }
 
-.missao-visao-valores article {
-    margin-left: 2em;
-    margin-right: 2em;
+
+
+
+article {
+    width: 80%;
+    margin: auto;
     margin-top: 4em;
-    line-height: 2em;
+    line-height: 1.2em;
+    font-size: 1.2em;
 }
 
-.valores
-{
-    height: 400px;
+h1 {
+    font-weight: lighter;
 }
 
-.valores article {
-    text-align: left;
+.container {
+    border-top: 2px solid black;
+    width: 30%;
+    margin-bottom: 2em;
 }
 
-@media screen and (min-width: 850px) {
 
-    .quemsomosnos-conteudo {
-        width: 80%;
-    }
 
-    .missao, .visao, .valores {
-        width: 80%;
-    }
 
-    .missao-visao-valores article {
-        margin-left: 5em;
-        margin-right: 5em;
-        margin-top: 4em;
-        line-height: 2em;
-    }
-   
 
+h2 {
+    font-weight: lighter;
+    transform: translateY(.3em) translateX(-.7em);
+    font-size: 1.7em;
+}
+.missao-visao-valores article {
+    margin-top: 3em;
+    margin-bottom: 4em;
+    background-color: rgb(236, 235, 235);
+    color: black;
+    padding: .1em 2em 2em 0em ;
+    border-radius: 2px;
+    
 }
 
-@media screen and (min-width: 1200px) {
+.missao-visao-valores p {
+    margin-left: 2em;
+    line-height: 1.5em;
+}
 
-    .titulo3 {
-        width: 60%;
+
+.missao-visao-valores h2 {
+    
+    margin-left: 2em;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .cabeçalho {
+        height: 11em;
+        text-align: center;
     }
     
+    .cabeçalho img {
+        display: inline-block;
+        width: 30em;
+        height: 11em;
+    }
     
-    .quemsomosnos-conteudo {
-        width: 60%;
-    }
-
-    .missao, .visao, .valores {
-        width: 60%;
-    }
-
-    .missao-visao-valores article {
-        margin-left: 5em;
-        margin-right: 5em;
-        margin-top: 4em;
-        line-height: 2em;
-    }
-   
-
 }
-
-
-
-
-
-
 
 
 

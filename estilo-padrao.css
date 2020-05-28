@@ -1,12 +1,208 @@
-body {
+.cabeçalho {
     width: 100%;
-    font-family: 'Quicksand';
-    background-color: black;
+    height: 5em;
+    background-color: white;
 }
 
+.cabeçalho img {
+    display: none;
+}
+
+
+
+
+body {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(13, 16, 27);
+}
+
+
+
+
+.no-js .menu-js {
+    display: none;
+}
+
+.no-js .menu {
+    display: block;
+}
+
+
+.js .menu {
+    display: none;
+
+}
+
+
+.js .hidden {
+    transform: translateX(55em);
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.js .menu-js {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: inline-block;
+    height: 2em;
+    transition: all 1s;
+    
+    
+
+}
+
+.js .hmbgr-menu {
+
+    padding: 1em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    transition: all 2s;
+    
+    
+    
+
+}
+
+.js .logo-hmbgr-area {
+
+    width: 60%;
+    display: inline-block;
+
+}
+
+.js .hmbgr-area {
+    display: inline-block;
+    float: right;
+    position: relative;
+
+
+}
+
+.js .hmbgr-area button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.js .hmbgr {
+    
+    padding-right: 2em;
+    
+    
+}
+
+
+
+
+
+
+
+
+.js .menu-showed {
+    background-color: rgba(0, 0, 0, 0.836);
+    height: 36em;
+    width: 100%;
+    float: right;
+    color: white;
+    transition: all .5s;
+            
+    
+    }
+    .js .menu-showed a {
+        text-decoration: none;
+        color: white;
+        
+
+        
+        
+    }
+    
+    .js .menu-showed ul {
+        list-style: none;
+        
+        
+    }
+
+    .js .menu-showed li {
+        display: inline-block;
+        width: 100%;
+        padding:2em;
+        
+        transform: translateX(-2.2em);
+        transition: all .1s;
+        
+    }
+
+
+    .js .menu-circle {
+        width: .6em;
+        height: .6em;
+        display: inline-block;
+        
+        border-radius: 100%;
+        border: solid 1.5px rgb(255, 255, 255);
+        margin-right: 1em;
+        transform: translateY(.05em);
+        transition: all .5s;
+        
+
+    }
+
+
+    
+
+  
+
+
+  .js .menu-showed .menu-subli {
+      width: 0;
+      transition: all 1s;
+  }
+  
+  
+  
+  
+
+.js .menu-txt {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .logo {
-    background-color: rgb(0, 0, 0);
-    height: 5em;
+    background-color: rgb(255, 255, 255);
+    height: 11em;
     
     
     
@@ -14,10 +210,10 @@ body {
 }
 
 .logo img {
-    width: 17em;
+    width: 30em;
     display: block;
     margin: auto;
-    padding-top: 1em;
+    padding-top: 3em;
     
     
 
@@ -25,30 +221,60 @@ body {
 
 .button {
     background-color: rgb(0, 0, 0);
+    
+    border-radius: 1px;
+    
+    
 
 }
 
+.button:first-child {
+    padding-left: 4em;
+}
+.button:last-child {
+    padding-right: 4em;
+}
+
+
+
+
+
 .menu a {
-    color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
     padding: 15px;
     text-align: center;
-    border: .5px solid rgb(10, 10, 10);
-    transition: all 1s;
+    border: .5px solid rgba(10, 10, 10, 0.041);
+    transition: all .3s;
     
 }
 
+.menu a:first-child {
+    padding-left: 4em;
+}
+
+
+
 .menu a:hover {
-    background-color: rgb(12, 12, 12);
-    color: white;
+    background-color: rgb(17, 26, 58);
+    color: rgb(255, 255, 255);
+    letter-spacing: .01em;
+    
 }
 
 footer {
     color: white;
     text-align: center;
     font-size: .7em;
-    display: inline;
+    display: block;
+    width: 100%;
+    float: none;
+    background-color: black;
+    padding-bottom: 3em;
+    
+
+    
 }
 
 footer img {
@@ -73,10 +299,32 @@ footer p {
     
 }
 
-@media screen and (min-width:650px)
 
+@media screen and (min-width:450px) {
 
-{
+   
+
+    .js .logo-hmbgr-area {
+        width: 15em;
+    }
+
+    .js .hmbgr {
+        width: 2.5em;
+        padding-right: 3em;
+        padding-top: .5em;
+    }
+
+    .js .menu-showed {
+        width: 28em;
+
+    }
+}
+@media screen and (min-width:650px){
+
+    .js .menu-showed {
+        width: 35em;
+
+    }
     footer img {
         display: block;
         margin: auto;
@@ -118,12 +366,74 @@ footer p {
     }
 
     @media screen and (min-width: 1280px) {
+        
+        
+                
+        .menu {
+            background-color:rgb(0, 0, 0) ;
+            width: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+                
         .menu a {
             padding-left: 4em;
             padding-right: 4em;
         }
+
+        .js .menu-showed {
+            height: 40em;
+            width: 35em;
+        }
         
+        
+        .js .menu-showed a:hover .menu-subli  {
+            width: 150%;
+            background-color: black;
+            display: block;
+            height: .15em;
+            transform: translateY(.3em);
+            
+        }
+
+
+        .js .menu-showed a:hover .menu-circle  {
+            border: 1.5px solid black;
+            background-color: black;
+        }
+        
+
+        .js .menu-showed a:hover li {
+            background-color: rgba(255, 255, 255, 0.89);
+            color: black;
+            font-weight: bolder;
+        }
+
+
+        .js .js-hidden {
+            transform: translateY(-10em);
+            transition: all 1s;
+        }
+
+        .js .menu {
+            display: inline-block;
+            
+        }
+    
+        .js .logo-hmbgr-area {
+            width: 15%;
+            
+        }
+
+        .js .hmbgr-menu {
+            background-color: white;
+        }
+
+        .js .hmbgr {
+            transform: translateY(-.5em);
+        }
+    
     }
+
 
 
 }

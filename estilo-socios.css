@@ -1,25 +1,80 @@
+body {
+    background-color: rgb(233, 233, 233);
+   
+}
+
+
+.letreiro {
+    width: 100%;
+    height: 20em;
+    background-image: url(fundo-quemsomos.jpg);
+    background-position: center ;
+    background-size: cover;
+    text-align: left;
+
+    
+}
+
+.letreiro h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    transform: translateX(3.5em) translateY(2.1em);
+    color: white;
+    
+}
+
+.letreiro .titulo {
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 100%;
+    height: 20em;
+    
+}
+
+
+
+.risco {
+    border-bottom: 2px solid white;
+    transform: translateY(4.8em);
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
 .logo {
     background-color: black;
 }
 
 
+
 .titulo1 {
     width: 100%;
     height: 4em;
-    color: white;
-    text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
+    font-size: .9em;
     
     
+
 
 }
 
 .titulo1 h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
     font-weight: lighter;
-    letter-spacing: .3em;
-
+    letter-spacing: .5em;
+    
 }
+
 
 
 
@@ -27,13 +82,15 @@
     width: 100%;
     height: 50px;
     font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
     margin: auto;
     margin-top: 20px;
     text-align: center;
     margin-bottom: 1em;
     transform: translateY(1em);
+    border: 1px solid rgba(185, 185, 185, 0);
+    
     
 }
 
@@ -42,7 +99,10 @@
     font-weight: lighter;
     font-size: .7em;
     letter-spacing: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+    
+    
     
     
 }
@@ -53,7 +113,7 @@
     
     text-align: center;
     overflow: hidden;
-    background-image: url(fundo-equipe.jpg);
+    
     background-size: cover;
 }
 
@@ -65,12 +125,13 @@
 
 .socios p {
     margin-top: 3em;
+    font-size: 1.2em;
 }
 
 .block {
     padding-bottom:3em ;
-    background: rgba(0, 0, 0, 0.733);
-    color: white;
+    background: rgba(255, 255, 255, 0.733);
+    color: rgb(51, 51, 51);
     overflow: hidden;
     
 
@@ -82,7 +143,7 @@
     margin-top: 3em;
     margin-bottom: 10%;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
     padding-bottom: .1em;
 }
 
@@ -133,6 +194,23 @@
     }
    
     @media screen and (min-width: 1200px) {
+        
+            
+    .cabeçalho {
+        height: 11em;
+        text-align: center;
+    }
+    
+    .cabeçalho img {
+        display: inline-block;
+        width: 30em;
+        height: 11em;
+    }
+    
+
+    
+        
+        
         .block {
             width: 80%;
             overflow: hidden;

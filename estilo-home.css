@@ -1,651 +1,449 @@
 
-
-.topo {
-    width: 100%;
-    height: 20em;
-    background-color: white;
-    background-image: url(New-York.jpg);
-    overflow: hidden;
-    background-size: cover;
-    background-position: bottom;
-    color: white;
-    font-family: 'EB Garamond';
-    text-shadow: 2px 2px 2.5px black;
-    line-height: 1.5em;
-    
-
-
-}
-
-.topo h1 {
-    display: block;
+.menu {
     text-align: center;
-    font-size: 1.2em;
-    letter-spacing: .2em;
+}
 
+
+
+
+
+.video-topo {
+    overflow: hidden;
+}
+
+.video-topo video {
+    width: 100%;
+    
     
 }
-.topo h1:first-child {
-    margin-top: 4.5em;
 
 
-}
+
+
+
 
 .titulo {
     width: 100%;
-    height: 4em;
-    color: white;
-    text-align: center;
+    height: 2em;
     background-color: black;
     overflow: hidden;
+    text-align: left;
+    padding: 1em 0em;
+    
 
 }
 
 .titulo h2 {
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    font-weight: lighter;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    
+    letter-spacing: .5em;
+    display: inline-block;
+    margin: auto;
+    margin-left: 2em;
+    margin-top: .3em;
+
+
+    
+
 }
 
-.conteudo {
+
+
+
+
+
+
+
+.especialidades {
+    background-color: rgb(236, 236, 236);
     width: 100%;
-    height: 120em;
-    overflow: hidden;
-    background-image: url(fundo-equipe.jpg);
+    height: 31em;
     
-    background-size: cover;
+   overflow: auto;
+   overflow-y: hidden;
+   white-space: nowrap;
     
     
 }
 
-
+.card-area {
+    display: inline-block;
+    padding: 4.5em 6em;
+    box-sizing: border-box ;
+    width: 30em;
+    height: 30em;
+}
 
 .card {
-
-    margin: auto;
-    display: block;
-    font-size: .8em;
     width: 20em;
     height: 20em;
-    background-color: rgb(0, 0, 0);
-    margin: auto;
-    margin-top: 4em;
-    margin-bottom: 4em;
-    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgba(255, 251, 0, 0.021);
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
+    transition: all .5s;
+    position: static;
+    float: left;
+    
+    
+    
+    
     
 }
-
-
-
-
-
 .card img {
-    width: 4em;
+    width: 4.5em;
     display: block;
     margin: auto;
-    margin-top: 3em;
-
+    margin-top: 5em;
+    
 
 }
+
 
 .card a {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+    font-family: 'Quicksand';
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
+    margin-top: 2em;
+    font-weight: bolder;
+
+}
+
+.card:hover {
+    font-size: 1.1em;
+    transform: translateY(-.1em) translateX(-.5em);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.card:hover a {
+    color: rgb(126, 126, 126);
+    
+}
+
+
+
+
+
+
+
+.sobrenos-article {
     width: 100%;
     display: inline-block;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 2em;
-    opacity: 50%;
-    transition: all 1s;
-    
-
-
-}
-
-.card a:hover {
-    opacity: 100%;
-    letter-spacing: 2px;
-    transform: translateY(-.5em);
-    
-}
-
-
-
-.card .predio {
-    width: 20%;
-
-}
-
-.card .moeda {
-    width: 17%;
-
-}
-
-.card .pessoas {
-    margin-top: 2.5em;
-    width: 3.5em;
-}
-
-.card .carrinho {
-    width: 3em;
-    margin-top: 2.5em;
-}
-
-.card .terno {
-    width: 2.5em;
-    margin-top: 2.5em;
-}
-
-.card .tribuna {
-    width: 3em;
-}
-
-
-.sobrenos {
-    width: 100%;
-    height: 1200px;
     background-image: url(fundo-sobrenos.jpg);
     background-size: cover;
+    height: 30em;
 }
 
-.socios-article {
+.sobrenos article {
+    width: 80%;
     color: white;
-    font-size: 1em;
-    background-color: rgba(0, 0, 0, 0.521);
-    display: block;
-    padding: 2em;
-    text-align: center;
-
-}
-
-.socios-fotos img {
-    width: 13em;
-    display: block;
+    padding: 1em;
     margin: auto;
-    margin-top: 4em;
-
-
-}
-.tiago {
-    margin-top: 7em;
-}
-
-.socios-fotos a {
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    line-height: .3em;
-    transition: all .2s;
+    margin-top: 3em;
+    font-size: 1.2em;
+    
     
 }
 
-.socios-fotos a:hover {
-    letter-spacing: .1em;
-    
-
-    
-}
-
-.socios-fotos a .ps {
-    transition: all 2s;
-    opacity: 80%;
-    margin-top: 1.5em;
-}
-
-.socios-fotos a:hover .ps {
-    margin-top: 2em;
-    opacity: 100%;
-}
 
 
 
-.socios-fotos a img {
-    transition: all 1s;
-}
-.socios-fotos a:hover img {
-    width: 13.5em;
-}
-
-
-
-.nossoescritorio {
-    width: 100%;
-    height: 35em;
-    background-image: url(tribunal.jpg);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-
-}
-
-.nossoescritorio img {
-    width: 25em;
-    display: block;
-    margin: auto;
-    margin-top: 4em;
-}
-
-.nossoescritorio article {
-    background-color: rgba(0, 0, 0, 0.452);
-    color: white;
-    padding: 2em;
-    margin-top: 4em;
-    text-align: center;
-
-}
 
 .contato {
-    width: 100%;
-    height: 40em;
-    background-image: url(Janelas.jpg);
-    background-size: cover ;
-    overflow: hidden;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.contato .titulo {
+    background-color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.contato address {
+    background-color: white;
+    margin: 1em;
+    padding: .6em;
+    border-radius: 5px ;
+    box-shadow: 1px 1px 5px black;
+    text-align: left;
+    margin-top: 2em;
 
 }
 
-.contato-box {
-    background-color: rgba(0, 0, 0, 0.507);
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.contato-texto {
-    margin-top: 4em;
-    color: white;
-    font-size: .9em;
-
-    
-
-
-    
-}
-
-.contato img {
-    width: 1.5em;
-    margin-left: 2em;
-    margin-right: 1em;
-
-}
 
 .contato .end {
-    margin-left: 5em;
-    margin-right: 4em;
+    margin-left: 2em;
+}
+
+
+.contato img {
+
+    width: 1em;
+    margin-left: 1em;
+    margin-right: 1em ;
+    
 
 }
-     
-.maps iframe {
-    display: block;
+
+.contato iframe {
     width: 90%;
-    margin: auto;
     height: 20em;
-    margin-top: 6em;
+    margin-top: 2em;
+    
+}
 
 
+
+.contato-predio {
+    background-image: url(iguatemi-business.jpg);
+    width: 100%;
+    height: 30em;
+    background-size: cover;
+    background-position: center;
 
 }
 
-@media screen and (min-width: 850px) {
 
-    .conteudo {
-        
-        
-        background-image: url(predios.jpg);
-        background-size: cover;
-        height: 60em;
-        
+.predio-box {
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 10em;
+    transform: translateY(20em);
+    text-align: center;
 
-    }
+    
+}
+
+.predio-box a {
+    color: white;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+
+    
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
     
     
-    .col-2 {
-        
-    
-    }
-
-    .col-1 {
-        
-        height: 40em;
+    .cabeçalho {
+        height: 11em;
         text-align: center;
     }
+    
+    .cabeçalho img {
+        display: inline-block;
+        width: 30em;
+        height: 11em;
+    }
+    
+
+    
+
+
+
+
+    
+    .especialidades {
+        white-space: normal;
+        margin: auto;
+        text-align: center;
+        height: 45em;
+        width: 100%;
+        overflow: hidden;
+        
+    }
+
+
+
 
     .card-area {
-        display: inline-block;
-        padding: 1em;
+        margin-right: 0em;
+        padding: 0em 3em 0em 3em;
+        width: 25%;
+        margin-top: 0;
         
+        height: 17em;
+        transform: translateY(4em) translateX(1em);
+
     }
 
     .card {
         font-size: .7em;
-        border-radius: 0px;
-        text-align: center;
+        margin-top: 0;
+        
     }
 
-    .card p {
-        width: 50%;
-        display: inline-block;
-        transform: translateY(-1em);
+    .card:hover {
+        font-size: .75em;
     }
-    .penal {
-        transform: translateY(1.5em);
-    }
-    
-    .tribuna {
-        transform: translateY(-2em);
-    
-    }
+
+
+
+
+
+
+
 
     
-  
     
-    .sobrenos {
-        height: 50em;
+    .sobrenos .titulo {
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 1.2em;
+        text-align: left;
     }
-    
-    .socios-fotos{
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        height: 10em;
-        transform: translateY(-2em);
+
+    .sobrenos .titulo h2 {
         
-
-        
-    }
-
-    .sofoto {
-        display: inline-block;
-        margin-top: 0em;
-        padding: 4em;
-
-    }
-
-
-
-
-
-    .socios-article p {
-        margin-left: 10em;
-        margin-right: 10em;
-    }
-    .col-1-4 {
-        display: inline-block;
-        margin: auto;
-        padding: 4em;
-        
-        
-    }
-
-
-    .nossoescritorio img {
-        width: 40em;
-
-    }
-
-   
-}
-
-
-@media screen and (min-width: 1280px) {
-    .logo {
-        height: 8em;
-        
-    }
-
-    .logo img {
-        width: 30em;
-
-    }
-    
-    
-    
-    
-    
-    
-    .topo {
-        height: 37em;
-        
-    }
-
-    .topo h1 {
-        font-size: 3em;
-        text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.774);
-        transform: translateY(1.5em);
-        
-    }
-
-   
-    
-    .titulo1 {
-        font-size: 3em;
-        
-        
-        
-    }
-   
-    .topo h1:first-child {
-        margin-top: 3.5em;
-    }
-
-    .titulo {
-        height: 3em;
-        font-size: 1.3em;
-        
-
-    }
-
-    .titulo h2 {
-        letter-spacing: .6em;
-    }
-
-  
-
-    .card-area {
-        display: inline-block;
-        padding: 3em;
-    }
-
-    
-    .card {
-        display: inline-block;
-        border-radius: 0px;
-        width: 16em;
-        height: 16em;
-        font-size: 1em;
-        
-        
-    }
-
-
-    .card a {
-        text-align: center;
-        font-size: 1em;
-        letter-spacing: .5em;
-        
-    }
-    
-    .card a img {
-        transition: all 1s;
-    }
-
-    .card a:hover {
-        font-size: 1em;
-        letter-spacing: .6em;
-    }
-
-
-        .card a:hover img {
-            width: 3.5em;
-        }
-        .card a:hover .pessoas{
-            width: 4.3em;
-        }
-        
-        .card p {
-            width: 50%;
-            display: inline-block;
-            transform: translateY(-1em);
-        }
-        .penal {
-            transform: translateY(1em);
-        }
-        
-        .tribuna {
-            transform: translateY(-2.3em);
-        
-        }
-
-    
-
-    .col-1 {
-        text-align: center;
-        display: inline-block;
-        width:100% ;
-        height: 15em;
-        
-        
-
-
-    }
-    .col-2 {
-        width: 100%;
-        margin: auto;
-        transform: translateY(-8em);
-        
-    }
-
-
-
-    .sobrenos {
-        height: 40em;
-    }
-  
-    .socios-fotos {
-        
-        width: 40%;
-        
-    }
- 
-
-    .sofoto {
-        display: inline-block;
-        text-align: center;
-        padding: 1em;
-        width: 40%;
-        margin-top: 2em;
-    }
-
-    .sofoto a {
         font-size: .9em;
-    }
-
-    .sofoto p {
-        width: 100%;
-    }
-
-    .sofoto img {
-        width: 13em;
-    }
-
-    .socios-article {
+        font-weight: bold;
+        letter-spacing: .5em;
         display: inline-block;
+        margin: 1em;
+        margin-left: 2em;
+
+    }
+
+    .sobrenos {
+        background-image: url(fundo-sobrenos.jpg);
+        height: 40em;
+        
+    }
+
+
+    .sobrenos-article {
         width: 50%;
-        float: left;
-        height: 32.2em;
-        
-        
-    }
-
-   .top {
-       margin-top: 5em;
-   }
-
-    .socios-article p{
-        margin-left: 4em;
-        margin-right: 4em;
-        font-size: 1.3em;
-        line-height: 1.3em;
-        font-weight: lighter;
-        
-        
-    }
-
-
-
-    .nossoescritorio {
-        height: 45em;
-    }
-
-    .nossoescritorio article{
-        height: 7em;
-
-
-        
-    }
-
-    .nossoescritorio article p{
-        margin-left: 20em;
-        margin-right: 20em;
-        font-size: 1.1em;
-
-
-        
-    }
-
-    .contato-box {
-        margin: auto;
-        background-color: rgba(0, 0, 0, 0.863);
-        width: 100%;
-        height: 100%;
+        display: inline-block;
+        height: 39.9em;
+        color: rgb(255, 255, 255);
+        line-height: bolder;
         overflow: hidden;
-    }
-
-    .contato-texto {
-        width: 50em;
-        display: block;
-        margin: auto;
-        line-height: 3em;
-        margin-top: 2em;
-          
-    }
-
-    .contato p {
-        margin-left: 1%;
         
+    }
+
+    .sobrenos article {
+        font-size: 1.4em;
+        background-color: transparent;
+        width: 80%;
+        margin-top: 4em;
+        
+
+    }
+
+    .sobrenos-foto {
+        width: 50%;
+        height: 40em;
+        background-image: url(sobrenos.jpg);
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        float: right;
+
+    }
+
+
+    .contato-predio {
+        width: 40%;
+        display: inline-block;
+        float: right;
+        background-size: cover ;
+        background-position: center;
+        height: 50em;
+        margin-top: 0;
+    }
+
+
+    .predio-box {
+        background-color: rgba(0, 0, 0, 0.74);
+        width: 100%;
+        height: 4em;
+        color: white;
+        padding-bottom: 20em;
+        margin-top: 10em;
+        
+    }
+
+    .predio-box a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 1em;
+
+
     }
 
     .contato {
+        width: 60%;
+        color: rgb(0, 0, 0);
         height: 50em;
-        background-size: cover;
+        text-align: center;
+        display: inline-block;
+        background-color: rgb(241, 241, 241);
+        padding: 0;
+        
     }
 
-        
+   
 
+
+    .contato img {
+        width: 3%;
+        margin-right: 2em;
+
+    }
 
     .contato iframe {
-        width: 45em;
-        height: 25em;
-
-
+        
+        margin-top: 4em;
+        width: 90%;
+        height: 20em;
     }
 
-    .maps {
-        transform: translateY(-5em);
+    .contato address {
+        background-color: rgb(255, 255, 255);
+        padding: 2em;
+        border-radius: 5px;
+        width: 80%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
+        margin: auto;
+        margin-top: 4em;
+        
     }
 
     
-    
-
-
-  
-
 
 
     
+    
+    
+    
 
     
-    
-}
     
    
+
+
+
+}
+
+
+
+

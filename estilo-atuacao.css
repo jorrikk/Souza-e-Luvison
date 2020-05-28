@@ -1,16 +1,25 @@
+
+
+
+
 .titulo {
     color: white;
-    height: 3em;
+    height: 4em;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
+    text-shadow: 1px 1px 2px black;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    font-size: .9em;
 
 }
 
 .titulo h2 {
     font-weight: lighter;
     letter-spacing: .3em;
-    transform: translateY(-.5em);
+    display: inline-block;
+    margin-left: 2em;
+    font-weight: bold;
 
 
 }
@@ -18,274 +27,555 @@
 
 
 
-.conteudo {
+
+
+
+.letreiro {
     width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 3em;
-}
-
-.cardarea {
-    width: 40%;
-    display: inline-block;
-    margin: auto;
-
-}
-
-
-
-.card {
-    font-size: .9em;
-    width: 10em;
-    background-color: black;
-    display: inline-block;
-    margin-top: 3em;
-    height: 10em;
-    font-family: 'Quicksand';
-    transition: all 1s;
-    text-align: center;
+    height: 20em;
+    background-image: url(fundo-atuacao.jpg);
+    background-position: bottom ;
+    background-size: cover;
+    background-position: cover;
     
 
-
-
+    
 }
 
-.card a {
-    
-    display: block;
-    text-decoration: none;
+.letreiro h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    transform: translateX(4em) translateY(2.5em);
     color: white;
     
-    letter-spacing: .3em;
-    font-size: .9em;
-    transition: all 2s;
-
 }
 
+.letreiro .titulo {
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 100%;
+    height: 22em;
+    text-align: left;
+    
+}
+
+.risco {
+    border-bottom: 2px solid white;
+    transform: translateY(6em);
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.especialidades {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 31em;
+    
+   overflow: auto;
+   overflow-y: hidden;
+   white-space: nowrap;
+    
+}
+
+
+.card-area {
+    font-size: .9em;
+    display: inline-block;
+    padding: 4.5em 6em;
+    box-sizing: border-box ;
+    width: 30em;
+    height: 30em;
+}
+
+.card {
+    
+    width: 20em;
+    height: 20em;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgba(255, 251, 0, 0.021);
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
+    transition: all .5s;
+    position: static;
+    float: left;
+    
+    
+    
+    
+    
+}
 .card img {
-    width: 20%;
+    width: 4.5em;
     display: block;
     margin: auto;
+    margin-top: 5em;
+
+
+}
+
+
+.card a {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+    font-family: 'Quicksand';
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
     margin-top: 2em;
-    transition: all 1s;
+    font-weight: bolder;
 
 }
-
-.card .consumerista {
-    width: 8%;
-}
-
-
-
-
-
-
-.penal p {
-    width: 50%;
-    display: block;
-    margin-left: 3em;
-    
-   
-    
-}
-
-.civil p {
-    width: 50%;
-    display: block;
-    margin-left: 3em;
-    
-   
-    
-}
-
-.card a:hover {
-    letter-spacing: .4em;
-    
-}
-
-.card a:hover img {
-    transform: translateY(-.5em);
-    width: +30%;
-}
-
-
 
 .card:hover {
-    padding: .2em;
+    font-size: 1.1em;
+    transform: translateY(-.1em) translateX(-.5em);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
 }
 
-.card a:hover .consumerista {
-    width: 13%;
+.card:hover a {
+    color: rgb(126, 126, 126);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo-esc {
+    width: 100%;
+    height: 4em;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    font-size: .9em;
+    
+    
+
+
+}
+
+.titulo-esc h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Quicksand';
+    letter-spacing: .5em;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+
+
+
+.escopo-esc {
+    
+    
+    white-space: nowrap;
+    background-color: rgb(240, 240, 240);
+    
+    background-size: cover;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.logo-esc {
+    width: 6em;
+    opacity: 100%;
+    display: inline-block;
+   
+
+}
+
+.divtit-esc {
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    
+}
+
+.tit-esc {
+    display: inline-block;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 1.6em;
+    transform: translateY(-1em) translateX(-.3em);
+    
+}
+
+
+
+
+
+
+
+.como-atuamos .titulo {
+    background-color: rgb(0, 0, 0);
+    border: black;
 }
 
 .como-atuamos {
-    color: white;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    margin: auto;
-    text-align: center;
-    background-image: url(fundo-atuacao-conteudo2.jpg);
-    padding-bottom: 10em;
-    text-shadow: 2px 2px 3px black;
     overflow: hidden;
-
-}
-.como-atuamos .titulo{
-   padding: 1em;
-   overflow: hidden;
+    
 }
 
+.como-atuamos p{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+    
+    
+    
+}
 
-.como-atuamos .titulo h2 {
+
+.como-atuamos article {
+    background-color: rgba(255, 255, 255, 0.774);
+    color: rgb(107, 107, 107);
+    width: 90%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card3 {
+    
+    
+    margin-top: 4em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(95, 95, 95);
+    padding-bottom:2em ;
+    border-radius: 5px;
+    white-space: normal;
+    margin-left: 0em;
+    margin-right: 20em;
+    display: inline-block;
+    width: 30em;
+    overflow: hidden;
+    transform: translateY(-2.5em);
+    
+}
+
+.card3 article {
+    white-space: normal;
+    
+}
+
+.card3 img {
+    width: 4em;
+    display: inline-block;
+    margin: 1.5em .5em 0em 2em;
+
+
+}
+
+.card3 h1 {
+    display: inline-block;
+    font-size: 1em;
+    width: 70%;
+    font-weight: bolder;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateX(1em) translateY(-1em);
+    
+}
+
+.card3 p {
+    margin: 1em 3em;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+.container {
+    border-top: solid 1px rgb(129, 129, 129);
+    width: 60%;
+    margin-left: 25%;
     transform: translateY(-1em);
 }
 
 
-.como-atuamos p {
-    width: 85%;
-    margin: auto;
-    text-align: center;
-    line-height: 2em;
-    transform: translateY(3em);
-    font-size: .9em;
-    margin-top: 1em;
 
+.shield-esc h1 {
+    transform: translateY(-2em);
+    
+}
+
+.shield-esc .container {
+    transform: translateY(-2em);
+    
+}
+
+
+.shield-esc img {
+    transform: translateY(-.5em);
+}
+
+
+
+.tributario-esc h1 {
+    transform: translateY(-2em);
+    
+}
+
+.tributario-esc .container {
+    transform: translateY(-2em);
+    
+}
+
+
+.tributario-esc img {
+    transform: translateY(-.5em);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.areas {
+    white-space: nowrap;
+    overflow: auto;
+    width: 100%;
+    display: inline-block;
+    overflow-y: hidden;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 2em;
 
 }
 
-.atuacao {
-    background-image: url(fundo-atuacao-conteudo2.jpg);
-    padding-bottom: 4em;
+
+.areas .titulo {
+    background-color: black;
+    border: black;
+}
+
+.card-area2 {
+    display: inline-block;
+    overflow: hidden;
 }
 
 
 .card2 {
-    width: 80%;
-    margin: auto;
-    color: white;
-    margin-top: 2em ;
-    background-color: black;
-    padding: 0 2em 2em 3em;
-    border-radius: 5px;
+    font-size: .8em;
+    background-color: rgb(255, 255, 255);
+    width: 40em;
+    height: 20em;
+    margin-right: 20em;
+    color: rgb(66, 66, 66);
+    text-align: left;
+    
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+.card2 img {
+    width: 2.5em;
+    float: left;
+    margin: 2em;
+
 }
 
 .card2 h3 {
     font-weight: lighter;
-    margin-left: 4em;
-    overflow: hidden;
+    display: inline-block;
+    
+    margin: 1.5em;
 }
 
-.card2 img {
-    width: 2em;
-    display: inline-block;
-    transform: translateY(3em);
-    margin-left: 1em;
+.card2 p {
+    width: 80%;
+    white-space: normal;
+    margin: 3em;
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1.2em;
 }
+
+
+
+
+
+
 
 .content {
     width: 60%;
-    border-bottom: solid 1px white ;
+    border-bottom: solid 1px rgb(70, 70, 70) ;
     text-align: center;
     margin: auto;
     transform: translateY(-1em) translateX(-.5em);
 }
 
-#direito-tributario img {
-    width: 1.6em;
-}
-
-#direito-societario img {
-    width: 1.5em;
-}
-
-#direito-consumerista img {
-    width: .7em;
-    transform: translateX(.5em) translateY(3.3em);
-}
-
-#direito-contratual img {
-    width: 1.5em;
-    transform: translateY(3.3em);
-
-}
-
-@media screen and (min-width:850px) {
-
-    .card {
-        font-size: .8em;
-    }
-    
-    
-    .conteudo {
-        background-image: url(predios.jpg);
-    }
-    
-    .cardarea {
-        width: 18%;
-
-    }
-
-    .como-atuamos p {
-        width: 60%;
-        text-align: justify;
-    }
 
 
-   .atuacao-conteudo {
-    width: 100%;   
-    margin: auto;
-   }
-
-   
-   .areas {
-       width: 100%;
-       text-align: center;
-   }
-   
-   .cardarea2 {
-       width: 49%;
-       display: inline-block;
-       
-   }
-
-   
 
 
-    .card2 {
-        
-        width: 90%;
-        height: 25em;
-        display: inline-block;
-        overflow: hidden;
-        text-align: left;
-        padding: 0;
 
-    }
-
-    .card2 p {
-        margin: auto;
-        margin-top: 2em;
-        width: 70%;
-    }
-
-    .card2 h3 {
-        transform: translateX(2em);
-    }
-
-    .card2 img {
-        margin-left: 2em;
-    }
-    
-    
-
-   
-    
-}
 
 @media screen and (min-width:1280px) {
 
-    .card {
+    .cabeçalho {
+        height: 11em;
+        text-align: center;
+    }
+    
+    .cabeçalho img {
+        display: inline-block;
+        width: 30em;
+        height: 11em;
+    }
+    
+    
+    
+    
+    .especialidades {
+        white-space: normal;
+        text-align: center;
+        padding-bottom: 2em;
+    }
+    .card-area {
+        font-size: .6em;
+        height: 17em;
+        
+        padding: 0;
+        width: 17%;
+        margin-top: 5em;
+  
+
+    }
+
+    .card:hover {
         font-size: 1em;
     }
+
+    
+    
+    
+    
+    
+    
+    .conteudo {
+        height: 28em;
+    }
+
+   
+   
+   
+   
+   
+   
+    .escopo-esc {
+        height: 25em;
+        overflow-y: hidden;
+    }
+    
+    .escopo {
+        margin: auto;
+        text-align: center;
+       
+    }
+
+    .card3 {
+        margin-left: 22em;
+        width: 40em;
+        height: 15em;
+        transform: translateY(-.5em);
+        
+    }
+
+    
+    
+    .como-atuamos {
+        height: 50em;
+        background-color: rgb(240, 240, 240);
+        
+        
+    }
+
+    .como-atuamos article {
+        margin-top: 6em;
+        display: inline-block;
+        margin: 0;
+        
+        width: 50%;
+        line-height: 2em;
+        font-size: 1.2em;
+        background-color: rgb(255, 255, 255);
+        padding: 4em;
+        padding-bottom: 6em;
+        color: rgb(53, 53, 53);
+        
+    }
+    
+    
+    
+    .areas {
+        height: 25em;
+    }
+    
+    .card2 {
+        margin-left: 22em;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+
 
 }
 
