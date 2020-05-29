@@ -78,7 +78,12 @@
     box-sizing: border-box ;
     width: 30em;
     height: 30em;
-    font-size: .6em;
+    font-size: .61em;
+    margin: auto;
+    margin-left: 5.3vh;
+    margin-top: .5vh;
+    margin-right: 11vh;
+
 }
 
 .card {
@@ -122,7 +127,7 @@
 
 .card:hover {
     font-size: 1.1em;
-    transform: translateY(-.1em) translateX(-.5em);
+    transform: translateY(-.1em) translateX(-1em);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
     background-color: rgb(255, 255, 255);
     opacity: 100%;

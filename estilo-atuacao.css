@@ -81,6 +81,7 @@
     background-color: rgb(236, 236, 236);
     width: 100%;
     height: 21em;
+
     
    overflow: auto;
    overflow-y: hidden;
@@ -97,6 +98,9 @@
     width: 30em;
     height: 30em;
     font-size: .6em;
+    margin-left: 5.5vh;
+    margin-top: .5em;
+    margin-right: 11vh;
 }
 
 .card {
@@ -141,7 +145,7 @@
 
 .card:hover {
     font-size: 1.1em;
-    transform: translateY(-.1em) translateX(-.5em);
+    transform: translateY(-.1em) translateX(-1em);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
     background-color: rgb(255, 255, 255);
     opacity: 100%;
@@ -188,42 +192,17 @@
 
 
 
-.escopo-esc {
-    
-    
-    white-space: nowrap;
-    background-color: rgb(240, 240, 240);
-    
-    background-size: cover;
-    overflow: auto;
-    white-space: nowrap;
-}
 
-.logo-esc {
-    width: 6em;
-    opacity: 100%;
-    display: inline-block;
-   
 
-}
 
-.divtit-esc {
-    width: 80%;
-    margin: auto;
-    margin-top: 2em;
-    
-}
 
-.tit-esc {
-    display: inline-block;
-    overflow: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    text-shadow: 5px 5px 10px black;
-    font-size: 1.6em;
-    transform: translateY(-1em) translateX(-.3em);
-    
-}
+
+
+
+
+
+
+
 
 
 
@@ -281,114 +260,6 @@
 
 
 
-.card3 {
-    
-    
-    margin-top: 4em;
-    background-color: rgb(255, 255, 255);
-    color: rgb(95, 95, 95);
-    padding-bottom:2em ;
-    border-radius: 5px;
-    white-space: normal;
-    margin-left: 0em;
-    margin-right: 20em;
-    display: inline-block;
-    width: 30em;
-    overflow: hidden;
-    transform: translateY(-2.5em);
-    font-size: .8em;
-    
-}
-
-.card3 article {
-    white-space: normal;
-    
-}
-
-.card3 img {
-    width: 4em;
-    display: inline-block;
-    margin: 1.5em .5em 0em 2em;
-
-
-}
-
-.card3 h1 {
-    display: inline-block;
-    font-size: 1em;
-    width: 70%;
-    font-weight: bolder;
-    overflow: hidden;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transform: translateX(1em) translateY(-1em);
-    
-}
-
-.card3 p {
-    margin: 1em 3em;
-    text-align: left;
-    font-size: 1.2em;
-    line-height: 1.3em;
-}
-
-.container {
-    border-top: solid 1px rgb(129, 129, 129);
-    width: 60%;
-    margin-left: 25%;
-    transform: translateY(-1em);
-}
-
-
-
-.shield-esc h1 {
-    transform: translateY(-2em);
-    
-}
-
-.shield-esc .container {
-    transform: translateY(-2em);
-    
-}
-
-
-.shield-esc img {
-    transform: translateY(-.5em);
-}
-
-
-
-.tributario-esc h1 {
-    transform: translateY(-2em);
-    
-}
-
-.tributario-esc .container {
-    transform: translateY(-2em);
-    
-}
-
-
-.tributario-esc img {
-    transform: translateY(-.5em);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .areas {
     white-space: nowrap;
@@ -397,7 +268,7 @@
     display: inline-block;
     overflow-y: hidden;
     background-color: rgb(243, 243, 243);
-    padding-bottom: 2em;
+    padding-bottom: 7em;
 
 }
 
@@ -414,6 +285,7 @@
 .card-area2 {
     display: inline-block;
     overflow: hidden;
+    
 }
 
 
@@ -422,28 +294,34 @@
     background-color: rgb(255, 255, 255);
     width: 40em;
     height: 20em;
-    margin-right: 20em;
+    
     color: rgb(66, 66, 66);
     text-align: left;
-    margin-top: 3em;
+    margin-top: 2em;
     display: inline-block;
     border-radius: 10px;
+    float: left;
+    padding-bottom: 15em;
+    
 }
 
 
 .card2 img {
-    width: 2.5em;
+    width: 4em;
     float: left;
-    margin: 2em;
+    margin: 2em 4em 0em 3em;
 
 }
 
 .card2 h3 {
     font-weight: lighter;
     display: inline-block;
-    
-    margin: 1.5em;
-}
+    font-weight: bold;
+    margin: 1.5em 0em;
+    font-size: 1.5em;
+    color: rgb(100, 100, 100);
+    transform: translateX(-1em) translateY(1em);
+}   
 
 .card2 p {
     width: 80%;
@@ -451,7 +329,17 @@
     margin: 3em;
     margin-top: 1em;
     line-height: 1.5em;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    padding-bottom: 10em;
+}
+
+
+.content {
+    width: 50%;
+    border-bottom: solid .1em rgb(70, 70, 70) ;
+    text-align: center;
+    margin: auto;
+    transform: translateY(-.5em) translateX(-.5em);
 }
 
 
@@ -460,12 +348,30 @@
 
 
 
-.content {
+.escopo {
+    padding-bottom: 7em;
+}
+
+.escopo .card2 {
+    padding-bottom: 0em;
+    white-space: normal;
+    text-align: left;
+
+}
+
+.card2 img {
+    width: 10%;
+    
+}
+
+.escopo .card2 h3 {
+    font-size: 1.5em;
     width: 60%;
-    border-bottom: solid 1px rgb(70, 70, 70) ;
-    text-align: center;
-    margin: auto;
-    transform: translateY(-1em) translateX(-.5em);
+    margin-top: .6em;
+}
+
+.escopo .card2 p {
+    margin-top: 2em;
 }
 
 
@@ -508,12 +414,15 @@
         padding: 0;
         width: 17%;
         margin-top: 5em;
+        margin: 0;
+        margin-top: 5em;
   
 
     }
 
     .card:hover {
-        font-size: 1em;
+        font-size: 1.02em;
+        transform: translateX(0);
     }
 
     
@@ -522,33 +431,7 @@
     
 
 
-   
-   
-   
-   
-   .titulo-esc {
-       font-size: 1em;
-   }
-   
-    .escopo-esc {
-        height: 25em;
-        overflow-y: hidden;
-    }
-    
-    .escopo {
-        margin: auto;
-        text-align: center;
-       
-    }
-
-    .card3 {
-        margin-left: 22em;
-        width: 40em;
-        height: 15em;
-        transform: translateY(-.5em);font-size: 1em;
-
-        
-    }
+  
 
     
     
@@ -576,17 +459,143 @@
     
     
     
+    
+    
+    
     .areas {
         height: 25em;
     }
     
     .card2 {
-        margin-left: 22em;
-        font-size: 1em;
+        margin-left: 30em;
+        font-size: .8em;
+        width: 50%;
+        margin-right: 30em;
         
     }
 
+    .card2 h3 {
 
+        margin-left: 2em;
+        margin-top: 3em;
+        margin-right: 0;
+
+    }
+
+    .card2 p {
+        margin-top: 2em;
+    }
+
+    .card2 img {
+        width: 8%;
+        margin-left: 5em;
+        margin-top: 4em;
+    }
+
+
+
+
+
+    .escopo {
+        height: 14em;
+    }
+
+    .escopo .card2 {
+        margin-left: 30em;
+        margin-right: 30em;
+    }
+
+
+    .escopo .card2 p {
+        text-align: center;
+        margin-top: 2em;
+
+    }
+
+
+
+    .escopo .card2 img  {
+        width: 10%;
+        margin-left: 4em;
+        margin-top: 2em;
+        
+    }
+
+    .escopo .card2 h3 {
+        width: 50%;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 1em;
+
+
+
+    }
+
+    .escopo .card2 .content {
+        transform: translateX(.5em);
+
+    }
+    .escopo .card2 p {
+        margin-top: 2em;
+    }
+
+    .escopo .content {
+        margin-left: 11.5em;
+    }
+
+    #contrato-esc img {
+        width: 9%;
+        margin-left: 3em;
+        margin-top: 3em;
+        margin-right: 3em;
+        
+    }
+
+    #contrato-esc h3{
+        width: 70%;
+        margin-left: 2em ;
+
+    }
+
+    #contrato-esc .content {
+        width: 60%;
+        margin-left: 11.5em;
+    }
+
+
+    #shield-esc img {
+        width: 10%;
+        margin-left: 4em;
+
+    }
+    #shield-esc h3 {
+        margin-top: 1.5em;
+    }
+
+    #shield-esc .content {
+        margin-left: 11em;
+    }
+    #shield-esc p {
+        margin-top: 3em;
+        text-align: center;
+    }
+
+
+    #hand-esc img {
+        width: 10%;
+        margin-left: 4em;
+
+    }
+
+    #tributario-esc img {
+        width: 9%;
+    }
+
+    #tributario-esc h3 {
+        margin-left: 1em;
+    }
+
+    
 
 }
 
