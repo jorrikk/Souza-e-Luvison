@@ -11,10 +11,111 @@
     overflow: hidden;
 }
 
-.video-topo video {
+.video-topo{
     width: 100%;
+    height: 80vh;
     
     
+}
+
+.ref {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(predios.jpg);
+}
+
+.ref-cont {
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    
+}
+.ref-container {
+    border-top: 2px solid white ;
+    transform: translateX(-8em);
+    width: 20%;
+    margin: auto;
+    margin-top: 2em;
+
+
+}
+.ref h2 {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    margin-top: 4em;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-weight: 500;
+
+
+
+
+
+}
+.escbg {
+    
+    height: 100vh;
+    overflow: hidden;
+}
+
+.esc {
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    
+    background-size: 110%;
+    
+    
+
+}
+.esc h2 {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    margin-top: 2em;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 500;
+    display: block;
+}
+
+
+.esc button {
+    margin-top: 3em;
+    font-size: 1em;
+    padding: .5em 2em;
+    border-radius: 50px ;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transform: translateX(-8.5em);
+    outline: none;
+    transition: all .5s;
+    
+
+
+}
+
+.esc button:hover {
+    font-size: 1.01em;
+    background: white;
+    color: black;
+    font-weight: bold;
+    transform: translateY(.1em) translateX(-8.5em);
+    letter-spacing: .1em;
+}
+
+.esc img {
+    width: 1.2em;
+    transform: translateX(.7em) translateY(.2em);
 }
 
 
@@ -29,6 +130,7 @@
     overflow: hidden;
     text-align: left;
     padding: 1em 0em;
+    text-align: center;
     
 
 }
@@ -41,7 +143,6 @@
     letter-spacing: .5em;
     display: inline-block;
     margin: auto;
-    margin-left: 2em;
     margin-top: .3em;
 
 
@@ -69,7 +170,7 @@
 }
 
 .es {
-    font-size: .7em;
+    font-size: .9em;
 }
 
 .card-area {
@@ -135,16 +236,26 @@
 
 .card:hover a {
     color: rgb(126, 126, 126);
+    color: black;
     
 }
 
 
-
-
-
-.sobrenos .titulo {
-    margin-left: 2em;
+.fas {
+    transform: translateX(.5em);
 }
+
+
+ 
+
+
+.sobrenosbg {
+    background-color: rgba(0, 0, 0, 0.836);
+    
+
+}
+
+
 
 .sobrenos-article {
     width: 100%;
@@ -152,15 +263,21 @@
     background-image: url(fundo-sobrenos.jpg);
     background-size: cover;
     height: 30em;
+    padding-bottom: 3em;
+    
     
 }
 
 .sobrenos article {
     width: 80%;
     color: white;
-    padding: 1em;
+    padding: 1em 2em 2em;
     margin: auto;
     font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.747);
+   
+    line-height: 1.5em;
+    font-weight: lighter;
     
     
     
@@ -171,30 +288,35 @@
 
 
 .contato {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(10, 13, 27);
     text-align: center;
     padding-bottom: 2em;
+    font-size: .9em;
 }
 
 .contato .titulo {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(9, 12, 26);
     text-shadow: 1px 1px 2px black;
+    text-align: center;
+    
 }
 
+.contato .titulo h2 {
+    margin-left: 0;
+}
 
-
-
-.contato address {
-    background-color: white;
-    margin: 1em;
-    padding: .6em;
-    border-radius: 5px ;
-    box-shadow: 1px 1px 5px black;
+.contato-texto {
+    margin-top: 2em;
+    display: inline-block;
+}
+.contato p {
+    color: white;
     text-align: left;
-    margin-top: 4em;
-
+    font-style: normal;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
 }
-
 
 .contato .end {
     margin-left: 2em;
@@ -217,6 +339,18 @@
     
 }
 
+    
+    #end {
+    text-align: center;
+    margin-top: 4em;
+    display: inline-block;
+    }
+
+
+    .maps {
+        margin-bottom: 2em;
+    
+    }
 
 
 .contato-predio {
@@ -225,6 +359,7 @@
     height: 30em;
     background-size: cover;
     background-position: center;
+
 
 }
 
@@ -337,7 +472,7 @@
         color: white;
         border: none;
         font-size: 1.2em;
-        text-align: left;
+        
     }
 
     .sobrenos .titulo h2 {
@@ -347,14 +482,20 @@
         letter-spacing: .5em;
         display: inline-block;
         margin: 1em;
-        margin-left: 2em;
-
+        
+        
     }
 
     .sobrenos {
         background-image: url(fundo-sobrenos.jpg);
         height: 40em;
         
+    }
+
+    .sobrenosbg {
+        height: 100vh;
+        overflow: hidden;
+        width: 100%;
     }
 
 
@@ -371,8 +512,8 @@
     .sobrenos article {
         font-size: 1.4em;
         background-color: transparent;
-        width: 80%;
-        margin-top: 4em;
+        width: 75%;
+        line-height: 1.8em;
         
 
     }
@@ -395,7 +536,7 @@
         float: right;
         background-size: cover ;
         background-position: center;
-        height: 50em;
+        height: 134vh;
         margin-top: 0;
     }
 
@@ -423,24 +564,32 @@
     .contato {
         width: 60%;
         color: rgb(0, 0, 0);
+        background-color: rgb(6, 8, 17);
         height: 50em;
         text-align: center;
         display: inline-block;
-        background-color: rgb(241, 241, 241);
+        
         padding: 0;
+        font-size: 1.1em;
         
     }
 
-    .contato .titulo h2 {
-        margin-left: 4em;
+    .contato address {
+        transform: translateX(-4em);
     }
 
+ 
+
+    #end {
+        transform: translateX(4em);
+    }
    
 
 
     .contato img {
-        width: 3%;
+        width: 4%;
         margin-right: 2em;
+        transform: translateX(1em)
 
     }
 
@@ -452,14 +601,58 @@
     }
 
     .contato address {
-        background-color: rgb(255, 255, 255);
-        padding: 2em;
-        border-radius: 5px;
-        width: 80%;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
-        margin: auto;
-        margin-top: 4em;
         
+       
+       
+        width: 80%;
+        
+        margin: auto;
+        
+        
+    }
+
+    .video-topo {
+        height: 24em;
+    }
+
+    .ref {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        height: 100vh;
+        font-size: 1.5em;
+        background-image: url();
+    }
+
+    .ref h2 {
+        margin-top: 3em;
+    }
+
+    .escbg {
+        background-color: rgba(0, 0, 0, 0.842);
+    }
+    
+    .esc {
+        width: 50%;
+        float: right;
+        display: inline-block;
+        height: 100vh;
+        background-image: url(fundo-atuacao.jpg);
+    }
+
+    .esc h2 {
+        margin-top: 4em;
+        font-size: 2em;
+    }
+
+    .esc button {
+        transform: translateX(-12em) translateY(2em);
+        font-size: 1.2em;
+    }
+
+    .esc button:hover {
+        transform: translateY(2.5em) translateX(-13em);
+        font-size: 1.15em;
     }
 
     

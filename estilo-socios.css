@@ -85,10 +85,8 @@ body {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
     margin: auto;
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 1em;
-    transform: translateY(1em);
+    text-align: center; 
+    margin-top: 1em; 
     border: 1px solid rgba(185, 185, 185, 0);
     
     
@@ -113,8 +111,10 @@ body {
     
     text-align: center;
     overflow: hidden;
-    
+    overflow: hidden;
     background-size: cover;
+    
+    
 }
 
 .socios img {
@@ -136,6 +136,9 @@ body {
     
 
 }
+
+
+
 
 .texto-socio {
     margin-left: 10%;

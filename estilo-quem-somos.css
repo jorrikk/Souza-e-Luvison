@@ -26,7 +26,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
     transform: translateX(1.5em) translateY(2.1em);
-    color: white;
+    color: white
     
 }
 
@@ -121,6 +121,10 @@ h2 {
 
     .missao-visao-valores {
         padding-bottom: 6em;
+    }
+    
+    .letreiro h2 {
+        transform: translateX(-20em);
     }
 }
 
