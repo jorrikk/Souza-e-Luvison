@@ -3,20 +3,10 @@
 body {
     
 
-background-color: rgb(151, 0, 0);
+background-color: rgb(4, 8, 14)
 }
 
-.titulo {
-    color: white;
-    height: 4em;
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-    text-shadow: 1px 1px 2px black;
-    border: 1px solid rgba(0, 0, 0, 0.671);
-    font-size: .9em;
 
-}
 
 .titulo h2 {
     font-weight: lighter;
@@ -238,7 +228,9 @@ background-color: rgb(151, 0, 0);
 .areas {
     white-space: nowrap;
     overflow: auto;
+    overflow-y: visible;
     
+    display: block;
     display: block;
     
    
