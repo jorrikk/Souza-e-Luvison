@@ -57,7 +57,7 @@ body {
 
 .js .menu-js {
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     display: inline-block;
     height: 2em;
@@ -91,10 +91,12 @@ body {
     display: inline-block;
     float: right;
     position: relative;
-    transform: translateX(-1.5em);
+    transform: translateX(-2.5em) translateY(.5em);
 
 
 }
+
+
 
 .js .hmbgr-area button {
     border: none;
@@ -118,7 +120,7 @@ body {
 
 .js .menu-showed {
     background-color: rgba(0, 0, 0, 0.836);
-    height: 36em;
+    height: 100vh;
     width: 100%;
     float: right;
     color: white;
@@ -188,6 +190,48 @@ body {
     display: inline-block;
 }
 
+
+
+
+.letreiro {
+    width: 100%;
+    height: 14em;
+    background-image: url(fundo-atuacao.jpg);
+    background-position: bottom;
+    background-size: cover;
+    
+}
+
+.letreiro h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    color: white;
+    transform: translateX(-1em) translateY(1em);
+    
+    
+    
+    
+}
+
+.letreiro .titulo {
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 31.1vh;
+    text-align: center;
+    
+}
+
+
+
+.risco {
+    border-bottom: 2px solid white;
+
+    width: 100%;
+    margin: auto;
+    transform: translateY(2em);
+}
 
 
 

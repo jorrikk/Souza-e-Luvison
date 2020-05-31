@@ -4,44 +4,6 @@ body {
 }
 
 
-.letreiro {
-    width: 100%;
-    height: 20em;
-    background-image: url(fundo-quemsomos.jpg);
-    background-position: center ;
-    background-size: cover;
-    text-align: left;
-
-    
-}
-
-.letreiro h1 {
-    font-weight: lighter;
-    font-size: 2.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: inline-block;
-    transform: translateX(1.5em) translateY(2.1em);
-    color: white;
-    
-}
-
-.letreiro .titulo {
-    background-color: rgba(0, 0, 0, 0.473);
-    width: 100%;
-    height: 20em;
-    
-}
-
-
-
-.risco {
-    border-bottom: 2px solid white;
-    transform: translateY(4.8em);
-    width: 100%;
-    margin: auto;
-}
-
-
 
 
 
@@ -103,6 +65,18 @@ body {
     
     
     
+}
+
+.letreiro h1 {
+    transform: translateX(-2.5em) translateY(1.2em);
+}
+
+.letreiro {
+    background-image: url(fundo-sobrenos.jpg);
+}
+
+.letreiro .titulo {
+    background-color: rgba(0, 0, 0, 0.452);
 }
 
 .socios {

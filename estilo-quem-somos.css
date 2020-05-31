@@ -6,45 +6,11 @@ body {
 
 
 
-
-
-
-
-
 .letreiro {
-    width: 100%;
-    height: 20em;
-    background-image: url(fundo-sobrenos.jpg);
-    background-position-y: -10em;
-    background-size: cover;
-    
-}
-
-.letreiro h1 {
-    font-weight: lighter;
-    font-size: 2.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: inline-block;
-    transform: translateX(1.5em) translateY(2.1em);
-    color: white
-    
-}
-
-.letreiro .titulo {
-    background-color: rgba(0, 0, 0, 0.473);
-    width: 100%;
-    height: 20em;
-    
+    background-image: url(fundo-quemsomos.jpg);
 }
 
 
-
-.risco {
-    border-bottom: 2px solid white;
-    transform: translateY(4.8em);
-    width: 100%;
-    margin: auto;
-}
 
 
 
@@ -61,11 +27,7 @@ h1 {
     font-weight: lighter;
 }
 
-.container {
-    border-top: 2px solid black;
-    width: 30%;
-    margin-bottom: 2em;
-}
+
 
 
 
@@ -76,6 +38,8 @@ h2 {
     transform: translateY(.3em) translateX(-.7em);
     font-size: 1.7em;
 }
+
+
 .missao-visao-valores article {
     margin-top: 3em;
     margin-bottom: 4em;
@@ -86,6 +50,12 @@ h2 {
     
 }
 
+.container {
+    border-top: 1px solid black;
+    width: 30%;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
 .missao-visao-valores p {
     margin-left: 2em;
     line-height: 1.5em;
@@ -95,6 +65,10 @@ h2 {
 .missao-visao-valores h2 {
     
     margin-left: 2em;
+}
+.missao-visao-valores li {
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 
