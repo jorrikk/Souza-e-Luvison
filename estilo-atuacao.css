@@ -1,4 +1,72 @@
 
+.js .especialidades {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.js .especialidades .card-area {
+    position: absolute;
+    transition: opacity .1s;
+    
+}
+
+.js .especialidades .card {
+    opacity: 0;
+    margin: 0;
+    transition: .2s all;
+    
+}
+.js .especialidades .card-area {
+    
+    
+}
+
+.js .especialidades .card.show {
+    opacity: 1;
+}
+
+
+.js .especialidades .next, .js .especialidades .prev {
+    z-index: 3;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    color: rgba(78, 78, 78, 0.863);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
+    outline: none;
+}
+
+.js .especialidades .prev {
+    left: 89%;
+    
+}
+
+
+.js .especialidades .next {
+    right: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body {
     
@@ -37,87 +105,6 @@ background-color: rgb(4, 8, 14)
 
 
 
-
-.especialidades {
-    background-color: rgb(236, 236, 236);
-    width: 100%;
-    height: 21em;
-
-    
-   overflow: auto;
-   overflow-y: hidden;
-   white-space: nowrap;
-    
-}
-
-
-.card-area {
-    font-size: .9em;
-    display: inline-block;
-    padding: 4.5em 6em;
-    box-sizing: border-box ;
-    width: 30em;
-    height: 30em;
-    font-size: .6em;
-    margin-left: 5.5vh;
-    margin-top: .5em;
-    margin-right: 11vh;
-}
-
-.card {
-    
-    width: 20em;
-    height: 20em;
-    background-color: rgb(255, 255, 255);
-    border: solid 2px rgba(255, 251, 0, 0.021);
-    display: inline-block;
-    border-radius: 3px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
-    transition: all .5s;
-    position: static;
-    float: left;
-    
-    
-    
-    
-    
-    
-}
-
-.card img {
-    width: 4.5em;
-    display: block;
-    margin: auto;
-    margin-top: 5em;
-
-
-}
-
-
-.card a {
-    color: rgb(114, 114, 114);
-    text-decoration: none;
-    font-family: 'Quicksand';
-    text-align: center;
-    display: block;
-    font-size: 1.2em;
-    margin-top: 2em;
-    font-weight: bolder;
-
-}
-
-.card:hover {
-    font-size: 1.1em;
-    transform: translateY(-.1em) translateX(-1em);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
-    background-color: rgb(255, 255, 255);
-    opacity: 100%;
-}
-
-.card:hover a {
-    color: rgb(126, 126, 126);
-    
-}
 
 
 
@@ -159,10 +146,304 @@ background-color: rgb(4, 8, 14)
 
 
 
+.areas {
+    white-space: nowrap;
+    overflow: auto;
+    height: 37em;
+    background-color: rgb(236, 236, 236);
+    
+
+}
+
+.areas .card-area {
+    
+    overflow: hidden;
+    
+    
+    
+    
+}
+
+.areas .card:hover {
+    font-size: 1em;
+    transform: translateX(0);
+}
+
+.areas .card {
+    height: 50em;
+    width: 30em;
+    padding: 0em 1em;
+    text-align: center;
+    white-space: normal;
+}
+
+.areas .card img {
+    float: left;
+    margin-left: 2em;
+    width: 4.5em;
+}
+
+.areas h2 {
+    color: rgb(95, 95, 95);
+    display: inline-block;
+    font-size: 1.6em;
+    margin-top: 4.4em;
+    transform: translateX(-.9em);
+    
+}
+
+.areas .container {
+    border-top: 2px solid rgb(95, 95, 95);
+    width: 60%;
+    margin-left: 8.1em;
+    transform: translateY(-1em);
+}
+
+.areas p {
+    font-size: 1.7em;
+    text-align: left;
+    width: 87%;
+    margin: auto;
+    margin-top: 2em;
+    color: rgb(95, 95, 95);
+    font-weight: 500;
+
+}
+
+
+#tributario img {
+    transform: translateY(.5em);
+}
+
+#tributario h2 {
+    transform: translateX(-1.4em);
+}
+
+
+
+#trabalhista p {
+    margin-top: 1em;
+}
+
+#trabalhista img {
+    transform: translateY(.5em);
+}
+
+#comercial img {
+    width: 14%;
+    transform: translateY(.5em);
+}
+
+#comercial h2 {
+    transform: translateX(-1.3em);
+}
+
+#societario img {
+    width: 14%;
+    transform: translateY(-.5em);
+}
+
+#societario h2 {
+    transform: translateX(-1.3em);
+}
+
+#penal img {
+    transform: translateY(.1em);
+}
+
+#penal h2 {
+    transform: translateX(-2.7em);
+}
+
+#consumerista h2 {
+    transform: translateX(-.4em);
+}
+
+#consumerista img {
+    transform: translateY(-.5em)
+}
+
+#consumerista .container {
+    width: 67%;
+
+}
+
+#consumerista p {
+    margin-top: 1em;
+}
+
+
+#civil img {
+    width: 14%;
+    transform: translateY(.5em);
+}
+
+#civil h2 {
+    transform: translateX(-3em);
+}
+
+#civil p {
+    margin-top: 1em;
+}
+
+#bancario h2 {
+    transform: translateX(-1.6em);
+}
+
+#bancario img {
+    transform: translateY(1.1em);
+}
+
+#contratual img {
+    transform: translateY(.4em);
+}
+
+
+.js .areas .next2, .js .areas .prev2  {
+    z-index: 3;
+    cursor: pointer;
+    color: rgba(78, 78, 78, 0.863);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
+    outline: none;
+    position: absolute;
+    margin-top: 50%;
+}
+
+
+
+.js .areas .prev2 {
+    right: 0%;
+
+   
+    
+}
+
+.js .areas .next2 {
+    left: 0%;
+}
+
+.js .areas .card {
+    opacity: 0;
+    transition: all .1s;
+    
+}
+
+.js .areas .card-area {
+    position: absolute;
+
+}
+
+.js .areas .card2.show {
+    opacity: 1;
+}
+
+
+
+.escopo {
+    white-space: nowrap;
+    overflow: auto;
+    background-color: rgb(236, 236, 236);
+}
+
+.escopo .card-area {
+    
+    height: 50em ;
+    overflow: hidden;
+    white-space: normal;
+
+}
+
+.escopo .card3 {
+    height: 40em;
+    width: 30em;
+    text-align: center;
+    transition: .2s all;
+}
+
+.escopo img {
+    width: 25%;
+    
+}
+.escopo h2 {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    margin-top: 3em;
+    color: rgb(116, 116, 116);
+    text-align: left;
+    
+}
+
+.escopo .cont {
+    border-top: .3em solid  rgb(88, 88, 88);
+    width: 25%;
+    margin-top: 1em;
+    margin-left: 3em;
+    
+}
+
+.escopo p {
+    width: 80%;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.6em;
+    font-weight: 550;
+    line-height: 1.5em;
+
+
+
+}
+
+
+.js .escopo .next3, .js .escopo .prev3 {
+
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+    color: rgba(78, 78, 78, 0.863);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
+    outline: none;
+    margin-top: 40%;
+
+}
+
+.js .escopo .prev3 {
+    right: 2%;
+    
+    
+}
+
+
+.js .escopo .next3 {
+    left: 2%;
+    
+}
+
+.js .escopo {
+    height: 35em;
+}
+
+.js .escopo .card-area {
+    position: absolute;
+}
+
+.js .escopo .card3 {
+    opacity: 0;
+}
+
+
+.js .escopo .card3.show {
+    opacity: 1;
+}
 
 
 
 
+
+.hand-esc img {
+    margin-top: 6em;
+    width: 30%;
+}
 
 
 
@@ -223,157 +504,6 @@ background-color: rgb(4, 8, 14)
 
 
 
-
-
-.areas {
-    white-space: nowrap;
-    overflow: auto;
-    overflow-y: visible;
-    
-    display: block;
-    display: block;
-    
-   
-    background-color: rgb(243, 243, 243);
-
-
-    
-
-}
-
-
-
-.areas .titulo {
-    background-color: black;
-    border: black;
-}
-
-.card-area2 {
-    display: inline-block;
-    overflow: hidden;
-    
-    
-}
-
-
-.card2 {
-    font-size: .6em;
-    background-color: rgb(255, 255, 255);
-    width: 30em;
-    height: 30em;
-    
-    color: rgb(66, 66, 66);
-    text-align: left;
-    
-    display: inline-block;
-    border-radius: 10px;
-    float: left;
-    padding-bottom: 15em;
-    margin: auto;
-    position: initial;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.712);
-    margin: 4em 7em 4em 7em  ;
-    
-    
-}
-
-
-
-
-
-
-
-
-
-
-.card2 img {
-    width: 4em;
-    float: left;
-    margin: 2em 4em 0em 3em;
-
-}
-
-.card2 h3 {
-    font-weight: lighter;
-    display: inline-block;
-    font-weight: bold;
-    margin: 1.5em 0em;
-    font-size: 1.5em;
-    color: rgb(100, 100, 100);
-    transform: translateX(-1em) translateY(1em);
-}   
-
-.card2 p {
-    width: 80%;
-    white-space: normal;
-    margin: 3em;
-    margin-top: 1em;
-    line-height: 1.5em;
-    font-size: 1.5em;
-    padding-bottom: 10em;
-
-}
-
-
-.content {
-    width: 55%;
-    border-bottom: solid .1em rgb(70, 70, 70) ;
-    text-align: center;
-    margin: auto;
-    transform: translateY(-.5em) translateX(2.7em);
-}
-
-
-
-
-
-.escopo .card2 {
-    text-align: left;
-    white-space: normal;
-    display: block;
-    margin: 0;
-    transform: translateY(0);
-    margin: 7em;
-    height: 20em;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.712);
-    
-    
-
-}
-
-.escopo .card2 img {
-    width: 7em;
-    float: none;
-    margin: 0;
-    margin: auto;
-    transform: translateY(2em);
-    margin-left: 5em;
-    margin-top: 3em;
-
-
-}
-
-.escopo .card2 h3 {
-    width: 75%;
-    margin-left: 4em;
-    text-align: left;
-    
-    
-}
-
-.escopo .card2 .content {
-    margin: 0;
-    text-align: center;
-    border-top: 2px solid;
-    width: 20%;
-    margin-top: 1em;
-    margin-left: 2em;
-}
-
-
-.escopo .card2 p {
-    text-align: left;
-}
 
 
 
@@ -460,140 +590,6 @@ background-color: rgb(4, 8, 14)
     
     
     
-    .ar {
-        font-size: .7em;
-        padding-bottom: .5em;
-    }
-    
-    .areas {
-        height: 25em;
-    }
-    
-    .card2 {
-        margin-left: 26em;
-        font-size: .8em;
-        width: 50%;
-        margin-right: 30em;
-        
-    }
-
-    .card2 h3 {
-
-        margin-left: .6em;
-        margin-top: 3em;
-        margin-right: 0;
-
-    }
-
-    .card2 p {
-        margin-top: 2em;
-    }
-
-    .card2 img {
-        width: 8%;
-        margin-left: 5em;
-        margin-top: 4em;
-    }
-
-
-
-
-   
-
-    .escopo .card2 {
-        margin-left: 26em;
-        margin-right: 20em;
-    }
-
-
-    .escopo .card2 p {
-        text-align: center;
-        margin-top: 2em;
-
-    }
-
-
-
-    .escopo .card2 img  {
-        width: 10%;
-        margin-left: 4em;
-        margin-top: 2em;
-        
-    }
-
-    .escopo .card2 h3 {
-        width: 50%;
-        display: inline-block;
-        margin-left: 0;
-        margin-top: 1em;
-
-
-
-    }
-
-    .escopo .card2 .content {
-        transform: translateX(.5em);
-
-    }
-    .escopo .card2 p {
-        margin-top: 2em;
-    }
-
-    .escopo .content {
-        margin-left: 11.5em;
-    }
-
-    #contrato-esc img {
-        width: 9%;
-        margin-left: 3em;
-        margin-top: 3em;
-        margin-right: 3em;
-        
-    }
-
-    #contrato-esc h3{
-        width: 70%;
-        margin-left: 2em ;
-
-    }
-
-    #contrato-esc .content {
-        width: 60%;
-        margin-left: 11.5em;
-    }
-
-
-    #shield-esc img {
-        width: 10%;
-        margin-left: 4em;
-
-    }
-    #shield-esc h3 {
-        margin-top: 1.5em;
-    }
-
-    #shield-esc .content {
-        margin-left: 11em;
-    }
-    #shield-esc p {
-        margin-top: 3em;
-        text-align: center;
-    }
-
-
-    #hand-esc img {
-        width: 10%;
-        margin-left: 4em;
-
-    }
-
-    #tributario-esc img {
-        width: 9%;
-    }
-
-    #tributario-esc h3 {
-        margin-left: 1em;
-    }
 
     
 

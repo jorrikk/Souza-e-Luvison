@@ -18,6 +18,23 @@
 
 
 
+    var especAtuação = new Carousel ({
+        container: '.areas',
+        itens: '.card2',
+        btnNext: '.prev2',
+        btnPrev: '.next2'
+    })
+
+
+    var escopo = new Carousel ({
+        container: '.escopo',
+        itens: '.card3',
+        btnNext: '.prev3',
+        btnPrev: '.next3'
+    })
+
+
+
 
 
    

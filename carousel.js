@@ -20,7 +20,7 @@ function Carousel (config) {
 
         })
 
-        console.log(_this)
+        
         
          _this.itens[0].classList.add('show')
          _this.btnNext.removeAttribute('style')
