@@ -1,5 +1,8 @@
 
-
+body {
+    position: absolute;
+    overflow: none;
+}
 .js .especialidades .next, .js .especialidades .prev {
     color: rgb(97, 97, 97);
     font-size: .7em;
@@ -353,18 +356,8 @@ body {
 
 }
 
-.card:hover {
-    font-size: 1.1em;
-    transform: translateY(-.1em);
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
-    background-color: rgb(255, 255, 255);
-    opacity: 100%;
-}
 
-.card:hover a {
-    color: rgb(126, 126, 126);
-    
-}
+
 
 .card p {
     color: rgb(124, 124, 124);
