@@ -3,64 +3,46 @@ body {
     position: absolute;
     overflow: none;
 }
-.js .especialidades .next, .js .especialidades .prev {
-    color: rgb(97, 97, 97);
-    font-size: .7em;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
-    position: absolute;
-    margin-top:10em;
-    z-index: 3;
-    cursor: pointer;
-    
 
-
-} 
-
-
-.js .especialidades .next{
-    
-    left: 2em;
-}
-
-.js .especialidades .prev{
-    right: 2em;
-}
-
-.js .especialidades .card-area {
-    position: absolute;
-}
-
-.js .especialidades .card {
-    opacity: 0;
-    transition: all .2s;
-}
-
-.js .especialidades .card.show {
-    opacity: 1;
-}
-
-
-
-
-
-
-.menu {
+.menu .button {
+    display: inline-block;
+    width: 100%;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
 }
 
+.menu a {
+    color: white;
+    text-decoration: none;
+    
 
-
-
+}
 
 
 .cabeçalho {
-    width: 100%;
-    height: 5em;
     background-color: white;
+    text-align: center;
+
 }
 
 .cabeçalho img {
+    width: 17em;
+    padding: 2em;
+    
+    
+}
+
+.js .cabeçalho img {
     display: none;
+
+}
+
+.js .cabeçalho {
+    height: 1em;
 }
 
 
@@ -250,20 +232,24 @@ body {
 
 .letreiro {
     width: 100%;
-    height: 14em;
+    height: 10em;
     background-image: url(fundo-atuacao.jpg);
     background-position: bottom;
     background-size: cover;
+
     
 }
 
 .letreiro h1 {
     font-weight: lighter;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
     color: white;
-    transform: translateX(-1em) translateY(1em);
+    margin-left: 2em;
+    margin-top: 1.5em;
+    
+    
     
     
     
@@ -271,24 +257,33 @@ body {
 }
 
 .letreiro .titulo {
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.808);
     width: 100%;
-    height: 31.1vh;
-    text-align: center;
-    
+    height: 25.1vh;
+    text-align: left;
+   
 }
 
 
 
 .risco {
-    border-bottom: 2px solid white;
+    border-bottom: 4px solid white;
 
-    width: 100%;
-    margin: auto;
-    transform: translateY(2em);
+    width: 20%;
+    margin-left: 4em;
+
+    
+    
+    
 }
 
+.next, .prev, .next2, .prev2, .next3, .prev3 {
+    display: none;
+}
 
+.js .next,.js .prev,.js .next2,.js .prev2,.js .next3,.js .prev3 {
+    display: inline-block;
+}
 
 
 .especialidades {
@@ -313,6 +308,7 @@ body {
     text-align: center;
     padding-top: 6em;
     
+    
    
 
 }
@@ -326,8 +322,10 @@ body {
     display: inline-block;
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
-    transition: all .5s;
+    transition: opacity .5s;
     margin: auto;
+    cursor: pointer;
+   
 
     
     
@@ -336,9 +334,9 @@ body {
 
 .card img {
     width: 5.5em;
-    display: block;
+    display: inline-block;
     margin: auto;
-    margin-top: 5em;
+    margin-top: 4em;
 
 
 }
@@ -424,6 +422,72 @@ body {
 
 
 
+.js .especialidades .next, .js .especialidades .prev {
+    color: rgb(97, 97, 97);
+    font-size: .7em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.356);
+    position: absolute;
+    margin-top:10em;
+    
+    cursor: pointer;
+    z-index: 3;
+
+
+} 
+
+
+.js .especialidades .next{
+    
+    left: 2em;
+}
+
+.js .especialidades .prev{
+    right: 2em;
+}
+
+.js .especialidades .card-area {
+    position: absolute;
+    
+}
+
+.js .especialidades .card {
+    opacity: 0;
+    transition: opacity .1s;
+    transform: translateY(-40em);
+    
+    
+    
+}
+
+.js .especialidades .card.show {
+    opacity: 1;
+    display: inline-block;
+    transform: translateY(0);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.js .cabeçalho {
+    width: 100%;
+    height: 5em;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
 
 
 
@@ -449,49 +513,6 @@ body {
 
 }
 
-.button {
-    background-color: rgb(0, 0, 0);
-    
-    border-radius: 1px;
-    
-    
-
-}
-
-.button:first-child {
-    padding-left: 4em;
-}
-.button:last-child {
-    padding-right: 4em;
-}
-
-
-
-
-
-.menu a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    display: block;
-    padding: 15px;
-    text-align: center;
-    border: .5px solid rgba(10, 10, 10, 0.041);
-    transition: all .3s;
-    
-}
-
-.menu a:first-child {
-    padding-left: 4em;
-}
-
-
-
-.menu a:hover {
-    background-color: rgb(17, 26, 58);
-    color: rgb(255, 255, 255);
-    letter-spacing: .01em;
-    
-}
 
 footer {
     color: white;
@@ -581,34 +602,56 @@ footer p {
     }
 }
 
-@media screen and (min-width:850px) {
-    
-    nav {
-        text-align: center;
-    }
-    .button {
-        display: inline-block;
-    }
-
-    .menu a {
-        padding-left: 1.9em;
-        padding-right: 1.9em;
-    }
-
     @media screen and (min-width: 1280px) {
         
+
+        
+        .cabeçalho img {
+            width: 30em;
+            display: inline-block;
+            
+        }
+        
+
+        .js .cabeçalho img {
+            display: inline-block;
+            
+            
+        }
+
+        .js .cabeçalho {
+            height: 10em;
+        }
+
+        
+        .menu {
+            text-align: center;
+            
+
+        }
+
+       
+        
+        .menu .button {
+            width: 15%;
+            transition: all .5s;
+
+        }
+
+        .menu .button:hover {
+            background-color: rgb(10, 24, 53);
+            letter-spacing: .01em;
+
+        }
+
+        .js .menu {
+            display: block;
+        }
+
+
         
                 
-        .menu {
-            background-color:rgb(0, 0, 0) ;
-            width: 100%;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-                
-        .menu a {
-            padding-left: 4em;
-            padding-right: 4em;
-        }
+       
 
         .js .menu-showed {
             height: 40em;
@@ -645,10 +688,7 @@ footer p {
             transition: all 1s;
         }
 
-        .js .menu {
-            display: inline-block;
-            
-        }
+        
     
         .js .logo-hmbgr-area {
             width: 15%;
@@ -663,11 +703,115 @@ footer p {
             transform: translateY(-.5em);
         }
         
+
+       .letreiro {
+           text-align: left;
+           
+       }
+
+       .letreiro .titulo {
+        text-align: left;
+        
+        
+    
+       }
+
+       .letreiro h1 {
+           text-align: left;
+           display: inline-block;
+           transform: 0;
+           margin-left: 2.4em;
+
+       }
+
+       .letreiro .risco {
+           border-bottom: 3px solid white ;
+           width: 4%;
+           
+       }
+
+       .letreiro h1 {
+           margin-left: 7em;
+       }
+
+       .letreiro .risco {
+           margin-left: 14em;
+       }
+       
+
+       
+       
+       
+       
+       .js .next,.js .prev {
+        display: none;
+        }
+        .js .next2,.js .prev2,.js .next3,.js .prev3 {
+            top: 0;
+        }
+
+       .especialidades {
+           white-space: normal;
+           text-align: center;
+           height: 37em;
+
+           
+           
+       }
+       .especialidades .card-area {
+           width: 17%;
+           height: 37%;
+          
+           
+
+        }
+
+        .especialidades .card {
+            float: left;
+            margin-left: 3em ;
+            transition: all .5s;
+        }
+
+        .js .especialidades .card-area {
+        position: relative;
+    
+}
+
+    .js .especialidades .card {
+        opacity: 1;
+        transition: all .5s;
+        transform: translateY(0em);
+        
+        
         
     }
 
+    .js .especialidades .card.show {
+        opacity: 1;
+        display: inline-block;
+        transform: translateY(0);
+        
+    }
+
+        .especialidades .card:hover {
+            font-size: 1.05em;
+            transform: translateY(-.2em)
+            translateX(-1em);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
+            letter-spacing: 0.05em;
+        }      
+
+    }
+
+       
+
+        
+        
+        
+    
 
 
-}
+
+
 
 

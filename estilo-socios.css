@@ -1,13 +1,12 @@
-body {
-    background-color: rgb(233, 233, 233);
-   
+
+
+
+
+
+
+.socios {
+    background-color: rgb(241, 240, 240);
 }
-
-
-
-
-
-
 
 
 
@@ -67,17 +66,7 @@ body {
     
 }
 
-.letreiro h1 {
-    transform: translateX(-2.5em) translateY(1.2em);
-}
 
-.letreiro {
-    background-image: url(fundo-sobrenos.jpg);
-}
-
-.letreiro .titulo {
-    background-color: rgba(0, 0, 0, 0.452);
-}
 
 .socios {
     width: 100%;
@@ -174,22 +163,7 @@ body {
         
 
 
-        .letreiro h1 {
-            margin-left: 4em;
-        }
-            
-    .cabeçalho {
-        height: 11em;
-        text-align: center;
-    }
-    
-    .cabeçalho img {
-        display: inline-block;
-        width: 30em;
-        height: 11em;
-    }
-    
-
+      
     
         
         

@@ -46,6 +46,7 @@ function Carousel (config) {
     }
 
     function showSlide() {
+
         var qtd = _this.itens.length
         var slide = _currentSlide % qtd
         slide = Math.abs(slide)
@@ -58,6 +59,12 @@ function Carousel (config) {
         
         
     }
+
+    
+
+    
+
+    
 
     
 }

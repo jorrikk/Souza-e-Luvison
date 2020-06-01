@@ -12,12 +12,16 @@ function menujs () {
 
 
     var $hmbgr_menu = document.querySelector('.menu-js')
+
+    
     
     
     
     $btnMenu.addEventListener('click', function(e){
         togglehidden(e.target)
+        
 
+        
         
         
         
