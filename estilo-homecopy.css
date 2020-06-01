@@ -1,0 +1,160 @@
+
+.body {
+    background-color: white;
+}
+
+
+
+.video-topo {
+    overflow: hidden;
+}
+
+.video-topo{
+    width: 100%;
+    height: 80vh;
+    
+    
+}
+
+.ref {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(predios.jpg);
+}
+
+.ref-cont {
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    
+}
+.ref-container {
+    border-top: 2px solid white ;
+    transform: translateX(-8em);
+    width: 20%;
+    margin: auto;
+    margin-top: 2em;
+
+
+}
+.ref h2 {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    margin-top: 4em;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    font-weight: 500;
+
+
+
+
+
+}
+.escbg {
+    
+    height: 100vh;
+    overflow: hidden;
+}
+
+.esc {
+    text-align: left;
+    color: white;
+    font-size: .8em;
+    
+    background-size: 110%;
+    
+    
+
+}
+.esc h2 {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    margin-top: 2em;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 500;
+    display: block;
+}
+
+
+.esc button {
+    margin-top: 3em;
+    font-size: 1em;
+    padding: .5em 2em;
+    border-radius: 50px ;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    transition: all .5s;
+    margin-left: 10%;
+    
+
+
+}
+
+.esc button:hover {
+    font-size: 1.01em;
+    background: white;
+    color: black;
+    font-weight: bold;
+    transform: translateY(.1em) translateX(-8.5em);
+    letter-spacing: .1em;
+}
+
+.esc img {
+    width: 1.2em;
+    transform: translateX(.7em) translateY(.2em);
+}
+
+
+
+
+
+
+
+
+.titulo {
+    width: 100%;
+    height: 2em;
+    background-color: black;
+    overflow: hidden;
+    text-align: left;
+    padding: 1em 0em;
+    text-align: center;
+    
+
+}
+
+.titulo h2 {
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    
+    letter-spacing: .5em;
+    display: inline-block;
+    margin: auto;
+    margin-top: .3em;
+
+
+    
+
+}
+
+
+
+
+
+
+.es {
+    font-size: .8em;
+}
