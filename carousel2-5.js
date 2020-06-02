@@ -68,12 +68,15 @@ function Carousel (config) {
         
         
     }
-
     
-        
 
-        
-    
+    showSlide()
+    var $empresarial1 = document.getElementById('empresarial1')
+    var $tributario1 = document.getElementById('tributario1')
+    var $trabalhista1 = document.getElementById('trabalhista1')
+    var $comercial1 = document.getElementById('comercial1')   
+    var $societario1 = document.getElementById('societario1')
+    var $penal1 = document.getElementById('penal1')
     
 
 
@@ -108,28 +111,6 @@ function Carousel (config) {
 
     var $contratual = document.getElementById('contratual')
     var $contratual2 = document.getElementById('contratual2')
-
-
-    showSlide()
-    var $empresarial1 = document.getElementById('empresarial1')
-    var $tributario1 = document.getElementById('tributario1')
-    var $trabalhista1 = document.getElementById('trabalhista1')
-    var $comercial1 = document.getElementById('comercial1')   
-    var $societario1 = document.getElementById('societario1')
-    var $penal1 = document.getElementById('penal1')
-
-
-    $empresarial1.addEventListener('click', function(){
-        window.location.href="Areas-de-Atuação.html"
-
-        resetSlide()
-        
-        $empresarial2.classList.add('show')
-
-        
-
-    })
-    
     
 
     var $areas = document.getElementById('areas')
@@ -144,15 +125,43 @@ function Carousel (config) {
         })
     }
     
-    function skrll () {
+    
+    
+    
+    function mark () {
+        $societario2.classList.add('show')
+    }
+    
+    mark()
+
+    function societario() {
+        
+        var _show = $areas.querySelector('.show')
+        _show.classList.remove('show')
+
+        
+        
+
+
+        mark()
+    }
+
+    societario()
+
+    
+    
+    function skrll (){
         if (screen.width<1024)
         window.scrollTo(0, 885)
         else {
             window.scrollTo(0, 500)
         }
+
     }
-    
-  
+
+    skrll()
+
+
     
     
     
@@ -260,7 +269,7 @@ function Carousel (config) {
   
 
 
-  
+    
 
     
     

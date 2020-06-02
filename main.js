@@ -10,7 +10,7 @@
 
     var carouselImgs = new Carousel ({
         container: '.especialidades',
-        itens: '.card',
+        itens: '.card-area',
         btnPrev: '.prev',
         btnNext: '.next'
 
@@ -33,6 +33,11 @@
         btnPrev: '.next3'
     })
 
+
+  
+
+
+  
 
     
 

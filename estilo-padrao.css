@@ -18,9 +18,14 @@ body {
 .menu a {
     color: white;
     text-decoration: none;
+    width: 100%;
+    padding: 1em 2em 1em 2.5em;
+    
     
 
 }
+
+
 
 
 .cabeçalho {
@@ -286,6 +291,16 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .especialidades {
     background-color: rgb(236, 236, 236);
     width: 100%;
@@ -368,25 +383,17 @@ body {
 
 }
 
-.comercial img {
-    width: 25%;
-    transform: translateX(-.4em) translateY(.5em);
-    
-}
 
 .comercial p {
-    transform: translateY(.5em);
+    transform: translateY(1em);
 
 }
 
 .societario img {
     width: 25%;
-    transform: translateY(-.8em);
 }
 
-.societario p {
-    transform: translateY(-.8em);
-}
+
 
 
 .consumerista img {
@@ -445,26 +452,21 @@ body {
     right: 2em;
 }
 
+
 .js .especialidades .card-area {
+    display: none;
+}
+
+.js .especialidades .card-area.show {
+    display: inline-block;
     position: absolute;
-    
 }
 
 .js .especialidades .card {
-    opacity: 0;
-    transition: opacity .1s;
-    transform: translateY(-40em);
-    
-    
-    
+    opacity: 1;
+    transition: all .2s;
 }
 
-.js .especialidades .card.show {
-    opacity: 1;
-    display: inline-block;
-    transform: translateY(0);
-    
-}
 
 
 
@@ -481,8 +483,8 @@ body {
 
 .js .cabeçalho {
     width: 100%;
-    height: 5em;
-    background-color: white;
+    height: 4.7em;
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
 }
 
@@ -551,6 +553,8 @@ footer p {
 }
 
 
+
+
 @media screen and (min-width:450px) {
 
    
@@ -604,7 +608,7 @@ footer p {
 
     @media screen and (min-width: 1280px) {
         
-
+        
         
         .cabeçalho img {
             width: 30em;
@@ -621,6 +625,7 @@ footer p {
 
         .js .cabeçalho {
             height: 10em;
+            background-color: white;
         }
 
         
@@ -799,7 +804,9 @@ footer p {
             translateX(-1em);
             box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.473);
             letter-spacing: 0.05em;
-        }      
+        } 
+        
+        
 
     }
 
