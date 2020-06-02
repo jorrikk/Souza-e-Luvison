@@ -124,19 +124,9 @@ function Carousel (config) {
         })
     }
     
-    function skrll () {
-        var width = screen.width
-
-        if (width > 1000) {
-            window.scrollTo(0,550)
-        }
-        if (width < 1000) {
-            window.scrollTo(0, 890)
-            
-        } 
-    }
     
-    skrll()
+    
+    
     
     
     
@@ -148,7 +138,7 @@ function Carousel (config) {
         $tributario2.classList.add('show')
 
 
-        skrll()
+        
 
 
     })
@@ -159,7 +149,7 @@ function Carousel (config) {
         
         $empresarial2.classList.add('show')
 
-        skrll()
+        
 
     })
 
@@ -168,7 +158,7 @@ function Carousel (config) {
 
         $trabalhista2.classList.add('show')
 
-        skrll()  
+          
     })
 
 
@@ -177,7 +167,7 @@ function Carousel (config) {
 
         $comercial2.classList.add('show')
 
-        skrll() 
+         
     })
 
 
@@ -186,7 +176,7 @@ function Carousel (config) {
 
         $comercial2.classList.add('show')
 
-        skrll()  
+          
     })
 
 
@@ -195,7 +185,7 @@ function Carousel (config) {
 
         $societario2.classList.add('show')
 
-        skrll() 
+         
     })
 
 
@@ -204,7 +194,7 @@ function Carousel (config) {
 
         $penal2.classList.add('show')
 
-        skrll()  
+          
     })
 
 
@@ -213,7 +203,7 @@ function Carousel (config) {
 
         $consumerista2.classList.add('show')
 
-        skrll()  
+          
     })
 
 
@@ -222,7 +212,7 @@ function Carousel (config) {
 
         $civil2.classList.add('show')
 
-        skrll()  
+          
     })
 
     $bancario.addEventListener('click', function(){
@@ -230,7 +220,7 @@ function Carousel (config) {
 
         $bancario2.classList.add('show')
 
-        skrll()  
+          
     })
 
     $contratual.addEventListener('click', function(){
@@ -238,7 +228,7 @@ function Carousel (config) {
 
         $contratual2.classList.add('show')
 
-        skrll()  
+          
     })
   
 
