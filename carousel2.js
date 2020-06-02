@@ -125,14 +125,18 @@ function Carousel (config) {
     }
     
     function skrll () {
-        if (screen.width<1024)
-        window.scrollTo(0, 885)
-        else {
-            window.scrollTo(0, 250)
+        var width = screen.width
+
+        if (width > 1000) {
+            window.scrollTo(0,550)
         }
+        if (width < 1000) {
+            window.scrollTo(0, 890)
+            
+        } 
     }
     
-    
+    skrll()
     
     
     

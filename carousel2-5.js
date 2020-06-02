@@ -150,13 +150,14 @@ function Carousel (config) {
 
     
     
-    function skrll (){
-        if (screen.width<1024)
-        window.scrollTo(0, 885)
-        else {
-            window.scrollTo(0, 250)
-        }
+    function skrll () {
+        if (screen.width>1024)
+        window.scrollTo(0, 550)
 
+        else {
+            window.scrollTo(0, 880)
+            
+        }
     }
 
     skrll()

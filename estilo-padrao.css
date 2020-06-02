@@ -763,9 +763,13 @@ footer p {
            
            
        }
+
+       
        .especialidades .card-area {
            width: 17%;
            height: 37%;
+           display: inline-block;
+           
           
            
 
@@ -775,11 +779,20 @@ footer p {
             float: left;
             margin-left: 3em ;
             transition: all .5s;
+            
+            
         }
 
         .js .especialidades .card-area {
         position: relative;
+        display: inline-block;
     
+}
+
+.js .especialidades .card-area.show {
+    position: relative;
+    display: inline-block;
+
 }
 
     .js .especialidades .card {
@@ -791,12 +804,6 @@ footer p {
         
     }
 
-    .js .especialidades .card.show {
-        opacity: 1;
-        display: inline-block;
-        transform: translateY(0);
-        
-    }
 
         .especialidades .card:hover {
             font-size: 1.05em;
