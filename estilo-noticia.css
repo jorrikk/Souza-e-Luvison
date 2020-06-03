@@ -4,6 +4,13 @@
     
 }
 
+
+.header {
+    height: 6em;
+}
+
+
+
 a {
     color: rgb(61, 61, 61);
 }
@@ -14,9 +21,14 @@ a {
     width: 10%;
 }
 .titulo {
-    width: 60%;
+    width: 100%;
     margin-top: 7em;
     display: inline-block;
+    
+}
+
+h1 {
+    font-size: 1.5em;
     
 }
 article {
@@ -34,34 +46,115 @@ article h2 {
 
 .news {
     display: inline-block;
-    width: 40%;
+    width: 100%;
     float: right;
+    white-space: nowrap;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.next, .prev {
+    display: none;
+}
+
+.js .next, .prev {
+    display: inline-block;
+    position: absolute;
+    font-size: .5em;
+    color: rgb(70, 70, 70);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342);
+    margin-top: 20em;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.prev {
+    right: 2%;
+}
+
+.next {
+    left: 2%;
+}
+
+
+.js .news {
+    height: 27em;
+}
+.js .blog .block-area {
+    display: none;
+}
+.js .block-area.show {
+    position: absolute;
+    display: inline-block;
+
+}
+
+
+
+
+
+.news h3 {
+    margin-left: 2em;
 }
 
 .news .block-area{
     width: 100%;
-    height: 25em;
+    height: 26em;
+    display: inline-block;
+    text-align: center;
     
 }
 
 .news .block {
-    width: 50%;
+    width: 80%;
     height: 32em;
+    background-color: rgb(255, 255, 255);
+    white-space: normal;
+    box-shadow: 2px 2px 10px black;
+    
+    margin: auto;
 
     
 
 }
 
 .news .thumb {
-    height: 9em;
+    height: 12em;
 }
 
 .news .risco {
     transform: translateX(-3.2em) translateY(-.5em);
 }
 
+
+
+
 .news .saibamais {
-    transform: translateX(-3.3em);
+    margin-top: 4em;
+    background-color: rgb(12, 8, 34);
+    width: 40%;
+    height: 2.5em;
+    padding: 0 1.5em;
+    border-radius: 15px ;
+    color: white;
+    
+}
+
+.saibamais h3 {
+    display: inline-block;
+    margin-top: .8em;
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+.saibamais .fas {
+    transform: translateX(.5em);
+    font-size: .8em;
+}
+
+.saibamais:hover {
+    font-size: 1em;
 }
 
 .news-h2 {
@@ -73,5 +166,117 @@ article h2 {
 
 
 .news .block:hover {
-    font-size: 1.02em;
+    font-size: 1.0em;
+}
+
+.rabisco {
+    transform: translateY(-1em);
+    margin-left: 1.2em;
+}
+
+.titulo h1 {
+    width: 90%;
+    margin-left: 0;
+    margin: auto;
+
+}
+
+article {
+    margin-left: 1em;
+    padding-bottom: 4em;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .next, .prev {
+        display: none;
+    }
+    
+    
+    .blog {
+        height: 100% ;
+        background-color: white;
+        
+    }
+    
+    a {
+        color: rgb(61, 61, 61);
+    }
+
+    .header {
+        height: 4em;
+    }
+    
+    .rabisco {
+        border: 3px solid black;
+        margin-left: 2.5em;
+        width: 10%;
+    }
+    .titulo {
+        width: 60%;
+        margin-top: 4em;
+        display: inline-block;
+        
+    }
+    article {
+        margin-left: 2em;
+        line-height: 1.7em;
+        margin-top: 4em;
+        
+        
+    }
+    
+    article h2 {
+        font-size: 1em;
+    }
+    
+    
+    .news {
+        display: inline-block;
+        width: 40%;
+        float: right;
+        white-space: normal;
+    }
+
+    .news-h3 {
+        margin-left: 4.5em;
+    }
+    
+    .news .block-area{
+        width: 100%;
+        height: 25em;
+        
+    }
+    
+    .news .block {
+        width: 60%;
+        height: 32em;
+    
+        
+    
+    }
+    
+    .news .thumb {
+        height: 9em;
+    }
+    
+    .news .risco {
+        transform: translateX(-3.2em) translateY(-.5em);
+    }
+    
+    .news .saibamais {
+        transform: translateX(-3.3em);
+    }
+    
+    .news-h2 {
+        margin-left: 11em;
+        
+        
+    
+    }
+    
+    
+    .news .block:hover {
+        font-size: 1.02em;
+    }
 }

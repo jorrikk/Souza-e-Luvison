@@ -8,12 +8,24 @@
 
   
 
+ 
+
+
+ 
+
     var carouselImgs = new Carousel ({
         container: '.especialidades',
         itens: '.card-area',
         btnPrev: '.prev',
         btnNext: '.next'
 
+    })
+
+       var newssss = new Carousel ({
+        container: '.news',
+        itens: '.block-area',
+        btnNext: '.previ',
+        btnPrev: '.nexti'
     })
 
 
