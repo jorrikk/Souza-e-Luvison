@@ -631,6 +631,7 @@ footer p {
         
         .menu {
             text-align: center;
+            overflow: hidden;
             
 
         }
@@ -638,7 +639,7 @@ footer p {
        
         
         .menu .button {
-            width: 15%;
+            width: 16%;
             transition: all .5s;
 
         }
