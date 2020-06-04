@@ -148,6 +148,8 @@
     
     .blog .block {
         width: 30em ;
+        float: left;
+        margin-left: 4.5em;
     }
 }
 
@@ -168,6 +170,8 @@
         text-align: left;
         margin-top: 1em;
     }
+
+
     .blog .block-area {
         width: 24.7%;
         height: 25em;
@@ -187,10 +191,12 @@
         cursor: pointer;
         transition: all .3s;
         text-align: center;
+        float: none;
     }
 
     .block h2 {
         text-align: left;
+        height: 6em;
     }
 
     
@@ -198,8 +204,13 @@
     font-size: 1.1em;
 }
 
+.block:hover h2 {
+    font-size: 1.35em;
+}
+
 .block:hover .saibamais {
     font-size: .8em;
+    transform: translateY(1em) translateX(-4em);
 
 }
 

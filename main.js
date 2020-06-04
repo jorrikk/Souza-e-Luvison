@@ -21,13 +21,6 @@
 
     })
 
-       var newssss = new Carousel ({
-        container: '.news',
-        itens: '.block-area',
-        btnNext: '.previ',
-        btnPrev: '.nexti'
-    })
-
 
 
     var especAtuação = new Carousel ({

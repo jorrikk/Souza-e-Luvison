@@ -25,6 +25,9 @@ body {
 
 }
 
+.no-js .cabeçalho {
+    background-color: white;
+}
 
 
 
@@ -191,7 +194,7 @@ body {
     .js .menu-showed li {
         display: inline-block;
         width: 100%;
-        padding:2em;
+        padding:1.5em;
         
         transform: translateX(-2.2em);
         transition: all .1s;

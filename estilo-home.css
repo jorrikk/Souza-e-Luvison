@@ -265,10 +265,6 @@
     }
 
 
-    .maps {
-        margin-bottom: 2em;
-    
-    }
 
 
 .contato-predio {
@@ -277,6 +273,8 @@
     height: 30em;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    
 
 
 }
@@ -493,6 +491,8 @@
         float: left;
         
     }
+
+   
 
     .contato address {
         transform: translateX(-4em);

@@ -199,7 +199,7 @@ background-color: rgb(4, 8, 14)
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
     outline: none;
     position: absolute;
-    margin-top: 70%;
+    margin-top: 20em;
     font-size: .7em;
     z-index: 3;
 }
@@ -309,7 +309,7 @@ background-color: rgb(4, 8, 14)
     color: rgba(78, 78, 78, 0.863);
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.178);
     outline: none;
-    margin-top: 60%;
+    margin-top: 20em;
     font-size: .7em;
 
 }
@@ -416,7 +416,6 @@ background-color: rgb(4, 8, 14)
 
 
 
-
 @media screen and (min-width:1280px) {
 
   
@@ -429,7 +428,7 @@ background-color: rgb(4, 8, 14)
 
     
     .areas {
-        height: 40em;
+        height: 35em;
         width: 60%;
         display: inline-block;
         float: left;
@@ -490,11 +489,11 @@ background-color: rgb(4, 8, 14)
 
     .js .prev2 {
         margin-right: 45%;
-        top: 25em;
+        top: 90em;
         
     }
      .js .next2 {
-        top: 25em;
+        top: 90em;
         margin-left: 5%;
 
     }
@@ -527,23 +526,23 @@ background-color: rgb(4, 8, 14)
         width: 40%;
         overflow: hidden;
         transform: translateY(-.25em);
-        height: 40em;
+        height: 35em;
         overflow: auto;
     }
 
 
     .js .escopo {
-        height: 40em;
+        height: 35em;
     }
 
 
     .js .next3 {
-        top: -10em;
+        top: -5em;
         margin-left: 5em;
     }
 
     .js .prev3 {
-        top: -10em;
+        top: -5em;
         margin-right: 5em;
         
     }
