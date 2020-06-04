@@ -44,6 +44,70 @@ article h2 {
 }
 
 
+
+.js .blog .block-area {
+    display: none;
+}
+.js .block-area.show {
+    position: absolute;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+.block h2 {
+    height: 8em;
+
+}
+.block a{
+    text-align: left;
+}
+
+
+
+.saibamais h3 {
+    display: inline-block;
+    margin-top: .8em;
+    font-weight: lighter;
+    font-size: .9em;
+    transform: translateX(-2em);
+}
+
+.saibamais .fas {
+    transform: translateX(2em);
+    font-size: .8em;
+}
+
+.saibamais:hover {
+    font-size: 1em;
+}
+
+
+
+.rabisco {
+    transform: translateY(-1em);
+    margin-left: 1.2em;
+}
+
+.titulo h1 {
+    width: 90%;
+    margin-left: 0;
+    margin: auto;
+
+}
+
+article {
+    margin-left: 1em;
+    padding-bottom: 4em;
+}
+
+
+
+
 .news {
     display: inline-block;
     width: 100%;
@@ -51,6 +115,7 @@ article h2 {
     white-space: nowrap;
     overflow: auto;
     background-color: rgb(255, 255, 255);
+    
 
 }
 
@@ -80,19 +145,43 @@ article h2 {
 
 
 .js .news {
-    height: 33em;
-}
-.js .blog .block-area {
-    display: none;
-}
-.js .block-area.show {
-    position: absolute;
-    display: inline-block;
-
+    height: 35em;
 }
 
+.news-h2 {
+    margin-left: 11em;
+    
+    
+
+}
 
 
+.news .thumb {
+    height: 12em;
+}
+
+.news .risco {
+    transform: translateX(-2.2em) translateY(1em);
+}
+
+
+
+
+.news .saibamais {
+    margin-top: 4em;
+    background-color: rgb(12, 8, 34);
+    width: 40%;
+    height: 2.5em;
+    padding: 0 1.5em;
+    border-radius: 15px ;
+    color: white;
+    
+}
+
+
+.news .block:hover {
+    font-size: 1.0em;
+}
 
 
 .news h3 {
@@ -120,89 +209,42 @@ article h2 {
     
 
 }
-
-.block h2 {
-    height: 8em;
-
+.circulo {
+    display: none;
+    transition: all 1s;
 }
-.block a{
-    text-align: left;
-}
-
-
-.news .thumb {
-    height: 12em;
-}
-
-.news .risco {
-    transform: translateX(-2.2em) translateY(1em);
-}
-
-
-
-
-.news .saibamais {
-    margin-top: 4em;
-    background-color: rgb(12, 8, 34);
-    width: 40%;
-    height: 2.5em;
-    padding: 0 1.5em;
-    border-radius: 15px ;
-    color: white;
+#circulos {
+    text-align: center;
+    width: 100%;
     
+    
+
 }
 
-.saibamais h3 {
+.js .circulo {
     display: inline-block;
-    margin-top: .8em;
-    font-weight: lighter;
-    font-size: .9em;
-    transform: translateX(-2em);
-}
-
-.saibamais .fas {
-    transform: translateX(2em);
-    font-size: .8em;
-}
-
-.saibamais:hover {
-    font-size: 1em;
-}
-
-.news-h2 {
-    margin-left: 11em;
+    width: 7%;
+    opacity: 50%;
     
+}
+.circulo.current {
+    font-size: 1.1em;
+    opacity: 100%;
+}
+
+.fa-circle {
+    color: rgb(63, 63, 63);
+    font-size: .7em;
     
-
-}
-
-
-.news .block:hover {
-    font-size: 1.0em;
-}
-
-.rabisco {
-    transform: translateY(-1em);
-    margin-left: 1.2em;
-}
-
-.titulo h1 {
-    width: 90%;
-    margin-left: 0;
-    margin: auto;
-
-}
-
-article {
-    margin-left: 1em;
-    padding-bottom: 4em;
 }
 
 
 @media screen and (min-width: 1000px) {
     
    
-    
+    .circulos {
+        display: none;
+    }
     .next, .prev {
         display: none;
     }

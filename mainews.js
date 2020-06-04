@@ -5,45 +5,19 @@
 
     menujs()
 
-
-  
-
- 
-
-
-
-
-       var newssss = new Carousel ({
+    var newssss = new Carousel ({
         container: '.news',
         itens: '.block-area',
         btnNext: '.prev',
         btnPrev: '.next'
-    })
+        })
 
 
+ 
+
+        
 
 
-
-  
-
-
-  
-
-    
-
-
-
-
-
-   
-
-    
-
-
-
-
-
-    
 
 
     
