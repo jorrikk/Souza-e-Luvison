@@ -224,16 +224,17 @@ article {
 .js .circulo {
     display: inline-block;
     width: 7%;
-    opacity: 50%;
+    
     
 }
-.circulo.current {
-    font-size: 1.1em;
-    opacity: 100%;
+.circulo.current .fa-circle {
+    font-size: .8em;
+    color: rgb(49, 49, 49);
+    
 }
 
 .fa-circle {
-    color: rgb(63, 63, 63);
+    color: rgb(139, 139, 139);
     font-size: .7em;
     
 }
